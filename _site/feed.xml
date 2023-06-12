@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-06-12T22:03:59+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Blackcurrant</title><subtitle>Blackcurrant is a minimal theme to show off your skills online.</subtitle><entry><title type="html">Blackcurrant Jekyll Theme</title><link href="http://localhost:4000/blog/blackcurrant/" rel="alternate" type="text/html" title="Blackcurrant Jekyll Theme" /><published>2018-11-22T00:00:00+01:00</published><updated>2018-11-22T00:00:00+01:00</updated><id>http://localhost:4000/blog/blackcurrant</id><content type="html" xml:base="http://localhost:4000/blog/blackcurrant/"><![CDATA[<p><small>Image Credits:<a href="https://www.fruitlayer.com"> Fruit Layer</a></small></p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-06-12T22:20:57+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Blackcurrant</title><subtitle>Blackcurrant is a minimal theme to show off your skills online.</subtitle><entry><title type="html">Blackcurrant Jekyll Theme</title><link href="http://localhost:4000/blog/blackcurrant/" rel="alternate" type="text/html" title="Blackcurrant Jekyll Theme" /><published>2018-11-22T00:00:00+01:00</published><updated>2018-11-22T00:00:00+01:00</updated><id>http://localhost:4000/blog/blackcurrant</id><content type="html" xml:base="http://localhost:4000/blog/blackcurrant/"><![CDATA[<p><small>Image Credits:<a href="https://www.fruitlayer.com"> Fruit Layer</a></small></p>
 
 <p>Blackcurrant is a Jekyll theme suitable for personal, blog, resume or portfolio websites.</p>
 
@@ -135,19 +135,18 @@
 
 <p>Breadcrumbs are generated for every page and post automatically. The default one looks like this.</p>
 
-<html>
- <head>
- </head>
- <body>
+<ul class="breadcrumbs">
+  <li><a href="/">Home</a></li>
    
-     <ol class="breadcrumb">
-         <li class="breadcrumb-item"> <a href="#"> Home     </a></li>
-         <li class="breadcrumb-item"> <a href="#"> Products </a></li>
-         <li class="breadcrumb-item"> <a href="#"> Reviews  </a></li>
-     </ol>
-
- </body>
-</html>
+  <li>
+    <a href="/blog">Blog</a>
+  </li>
+    
+  <li>
+    <a href="#">Blackcurrant</a>
+  </li>
+   
+</ul>
 
 <p>The color changes with the color scheme.</p>
 
@@ -397,27 +396,6 @@ var myChart = new Chart(ctx, {
 <p>With all these goodness, you will also get full support for 3 months.</p>
 
 <h2 id="buy-blackcurrant-jekyll-theme">Buy Blackcurrant Jekyll Theme</h2>
-
-<p>&lt;!DOCTYPE html&gt;</p>
-<html>
-<head>
-    <title>Buy Button</title>
-    <style>
-        .buy-button {
-            display: inline-block;
-            padding: 10px 20px;
-            background-color: #4CAF50;
-            color: white;
-            text-decoration: none;
-            border-radius: 4px;
-            font-weight: bold;
-        }
-    </style>
-</head>
-<body>
-    <a href="https://example.com/checkout" class="buy-button">Buy Now</a>
-</body>
-</html>
 
 <p><strong>We provide 3 months support.</strong></p>
 
