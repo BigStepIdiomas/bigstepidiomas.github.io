@@ -1,30 +1,10 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Expertise</title>
-    <style>
-        .expertise {
-            max-width: 600px;
-            margin: 0 auto;
-            padding: 20px;
-            background-color: #f2f2f2;
-        }
-        
-        .expertise h2 {
-            color: #333333;
-        }
-        
-        .expertise p {
-            color: #666666;
-        }
-    </style>
-</head>
-<body>
-    <div class="expertise">
-        <h2>Our Expertise</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla scelerisque bibendum urna sed facilisis. Donec in elit tortor. Sed interdum tincidunt metus, non aliquet turpis efficitur et. Vestibulum vel varius ligula.</p>
-        <p>Donec vulputate tellus ut tortor dignissim bibendum. Integer vel dignissim mi. Proin viverra auctor augue, sit amet feugiat sem porta non. Nulla facilisi. Sed mattis bibendum augue, et lobortis urna facilisis in.</p>
-        <p>Quisque dapibus diam ut nulla congue malesuada. Integer venenatis tellus id massa sagittis gravida. Duis lobortis lacinia justo ut laoreet. Morbi ut velit a velit faucibus hendrerit et et dolor.</p>
-    </div>
-</body>
-</html>
+<div>
+<h2>My Expertise:</h2>
+
+{% for item in site.data.main.expertise %}
+<div class="skillbar clearfix" data-percent="{{item.level}}%">
+	<div class="skillbar-title" style="background: {{item.color | color_darken: 50}}"><span>{{item.title}}</span></div>
+	<div class="skillbar-bar" style="background: {{item.color}};"></div>
+	<div class="skill-bar-percent">{{item.level}}</div>
+</div>
+{% endfor %}

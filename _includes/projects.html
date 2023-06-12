@@ -1,42 +1,18 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Projects</title>
-    <style>
-        .projects {
-            max-width: 800px;
-            margin: 0 auto;
-        }
-        
-        .project {
-            margin-bottom: 20px;
-            padding: 20px;
-            background-color: #f2f2f2;
-        }
-        
-        .project h3 {
-            color: #333333;
-        }
-        
-        .project p {
-            color: #666666;
-        }
-    </style>
-</head>
-<body>
-    <div class="projects">
-        <div class="project">
-            <h3>Project 1</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla scelerisque bibendum urna sed facilisis.</p>
-        </div>
-        <div class="project">
-            <h3>Project 2</h3>
-            <p>Donec vulputate tellus ut tortor dignissim bibendum. Integer vel dignissim mi.</p>
-        </div>
-        <div class="project">
-            <h3>Project 3</h3>
-            <p>Quisque dapibus diam ut nulla congue malesuada. Integer venenatis tellus id massa sagittis gravida.</p>
-        </div>
+<h2 class="m0a" data-aos="fade-up">Projects I've Worked on:</h2>
+<div class="projects">
+  {% assign sorted = site.projects | sort: 'date' | reverse %} {% for item in
+  sorted %}
+  <a href="{{item.url | relative_url}}" class="nostyle p-3">
+    <div
+      class="project borders cards rounded overflow-hidden"
+      data-aos="fade-up"
+    >
+      <div
+        class="project-image"
+        style="background-image: url({{item.image | relative_url}})"
+      ></div>
+      <p class="title text-center">{{item.title}}</p>
     </div>
-</body>
-</html>
+  </a>
+  {% endfor %}
+</div>
