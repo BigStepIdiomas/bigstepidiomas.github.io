@@ -1,0 +1,18 @@
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 200px; /* Adjust the width according to your preference */
+    height: 100vh;
+    background-color: #f8f8f8; /* Choose a background color for the sidebar */
+    padding: 20px; /* Adjust the padding according to your preference */
+    z-index: 999; /* Ensure the sidebar appears above other elements */
+  }
+  
+  .profile-picture {
+    width: 100%;
+    max-width: 150px; /* Adjust the size of the profile picture */
+    border-radius: 50%; /* Apply a circular border radius to the image */
+    margin-bottom: 20px; /* Adjust the margin-bottom according to your preference */
+  }
+  

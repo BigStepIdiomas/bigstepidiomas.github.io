@@ -76,3 +76,12 @@ Provide your contact details, such as email address or social media profiles, fo
 
 >
 > Paving the road and cheetsheets for docs speedrunners
+
+
+
+<div class="sidebar">
+  <img class="profile-picture" src="_images\profpic.jpg" alt="Profile Picture">
+  <!-- Add any other content you want to include in the sidebar -->
+</div>
+
+<link rel="stylesheet" href="custom.css">
