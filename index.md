@@ -2,6 +2,8 @@
 layout: default
 ---
 
+# Nagui Pinetta
+
 ## Introduction
 Introduce yourself and provide a brief overview of your background, skills, and areas of expertise.
 
