@@ -15,4 +15,8 @@
     border-radius: 50%; /* Apply a circular border radius to the image */
     margin-bottom: 20px; /* Adjust the margin-bottom according to your preference */
   }
+  .sidebar .profile-picture {
+    position: sticky;
+    top: 20px; /* Adjust the value according to your preference */
+  }
   

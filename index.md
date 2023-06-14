@@ -2,6 +2,13 @@
 layout: default
 ---
 
+<link rel="stylesheet" href="custom.css">
+
+<div class="sidebar">
+  <img class="profile-picture" src="_includes\profpic.png" alt="Profile Picture">
+  <!-- Add any other content you want to include in the sidebar -->
+</div>
+
 Introduce yourself and provide a brief overview of your background, skills, and areas of expertise.
 
 ## Work Experience
@@ -79,9 +86,4 @@ Provide your contact details, such as email address or social media profiles, fo
 
 
 
-<div class="sidebar">
-  <img class="profile-picture" src="_images\profpic.jpg" alt="Profile Picture">
-  <!-- Add any other content you want to include in the sidebar -->
-</div>
 
-<link rel="stylesheet" href="custom.css">
