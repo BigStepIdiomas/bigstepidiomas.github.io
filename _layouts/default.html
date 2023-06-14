@@ -1,155 +1,41 @@
----
-layout: compress
----
-
-<!--
-This layout is used in all pages. Making changes here will efect all pages. We recommend not to change anything here.
- -->
-
 <!DOCTYPE html>
-<html lang="en">
-  {% include head.html %}
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta charset="UTF-8">
 
+{% seo %}
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preload" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" as="style" type="text/css" crossorigin>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#157878">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    {% include head-custom.html %}
+  </head>
   <body>
-    {% if site.data.main.color-scheme-changer-widget %} {% include
-    demo-color-scheme-selector.html %} {% endif %}
-    <div class="loader">
-      <div class="lds-ring">
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-      </div>
-    </div>
+    <a id="skip-to-content" href="#content">Skip to the content.</a>
 
-    <div class="wrapper">
-      <div class="container-grid">
-        {% include sidebar.html %}
-        <div class="main">
-          <div class="main-container shadow">
-            <div class="title-space">
-              <h1>{{page.title}}</h1>
-              <div class="input-group mb-3" data-aos="zoom-in">
-                <input
-                  type="text"
-                  class="form-control border-right-0"
-                  id="search-input"
-                />
-                <div class="input-group-append">
-                  <span class="input-group-text"
-                    ><i class="fa fa-search"></i
-                  ></span>
-                </div>
-              </div>
-            </div>
-            <hr class="dashed" />
-            <main>{{content}}</main>
-            <div id="search-container"></div>
-            <hr class="dashed" />
-            {% include footer.html %}
-          </div>
-        </div>
-      </div>
-    </div>
+    <header class="page-header" role="banner">
+      <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
+      <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
+      {% if site.github.is_project_page %}
+        <a href="{{ site.github.repository_url }}" class="btn">View on GitHub</a>
+      {% endif %}
+      {% if site.show_downloads %}
+        <a href="{{ site.github.zip_url }}" class="btn">Download .zip</a>
+        <a href="{{ site.github.tar_url }}" class="btn">Download .tar.gz</a>
+      {% endif %}
+    </header>
 
-    <!-- JQuery  -->
-    <script src="{{'/assets/js/jQuery.min.js' | relative_url }}"></script>
+    <main id="content" class="main-content" role="main">
+      {{ content }}
 
-    <!-- Hide Loader on load -->
-    <script>
-      $(document).ready(function () {
-        $(".loader").hide();
-      });
-    </script>
-
-    <!-- Fontawesome Icons CSS -->
-    <script>
-      (function () {
-        var css = document.createElement("link");
-        css.href =
-          "{{'/assets/font-awesome-4.7.0/css/font-awesome.min.css' | relative_url }}";
-        css.rel = "stylesheet";
-        css.type = "text/css";
-        document.getElementsByTagName("head")[0].appendChild(css);
-      })();
-    </script>
-    <noscript>
-      <link
-        rel="stylesheet"
-        href="{{'/assets/font-awesome-4.7.0/css/font-awesome.min.css' | relative_url }}"
-      />
-    </noscript>
-
-    <!--  Search input -->
-    <script>
-      $("#search-input").keyup(function () {
-        $("main").hide();
-        $("search-container").show();
-        if (!$("#search-input").val()) {
-          $("main").show();
-          $("search-container").hide();
-        }
-      });
-    </script>
-
-    <!-- Script pointing to jekyll-search.js -->
-    <script src="{{'/assets/js/jekyll-search.min.js' | relative_url }}"></script>
-
-    <script>
-      SimpleJekyllSearch({
-        searchInput: document.getElementById("search-input"),
-        resultsContainer: document.getElementById("search-container"),
-        searchResultTemplate:
-          '<a class="nostyle" href="{url}"><div class="blog borders cards"><div class="image" style="background-image: url({image});"></div><div class="content"><h3 class="title">{title}</h3><p class="description">{description}</p></div></div></a>',
-        noResultsText: "No results found",
-        json: "{{'/search.json' | relative_url }}",
-      });
-    </script>
-
-    {% if page.type == 'home' %}
-    <script>
-      jQuery(document).ready(function () {
-        jQuery(".skillbar").each(function () {
-          jQuery(this)
-            .find(".skillbar-bar")
-            .animate(
-              {
-                width: jQuery(this).attr("data-percent"),
-              },
-              5000
-            );
-        });
-      });
-    </script>
-
-    {% endif %}
-
-    <!-- Animate on scroll CSS -->
-    <script>
-      (function () {
-        var css = document.createElement("link");
-        css.href = "https://unpkg.com/aos@2.3.1/dist/aos.css";
-        css.rel = "stylesheet";
-        css.type = "text/css";
-        document.getElementsByTagName("head")[0].appendChild(css);
-      })();
-    </script>
-
-    <noscript>
-      <link
-        rel="stylesheet"
-        href="{{'/assets/animate-on-scroll/aos.min.css' | relative_url }}"
-      />
-    </noscript>
-
-    <script src="{{'/assets/animate-on-scroll/aos.min.js' | relative_url }}"></script>
-
-    <script>
-      AOS.init({
-        duration: 600,
-        once: true,
-        disable: "mobile",
-      });
-    </script>
+      <footer class="site-footer">
+        {% if site.github.is_project_page %}
+          <span class="site-footer-owner"><a href="{{ site.github.repository_url }}">{{ site.github.repository_name }}</a> is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>.</span>
+        {% endif %}
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a>.</span>
+      </footer>
+    </main>
   </body>
 </html>
