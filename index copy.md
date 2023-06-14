@@ -6,9 +6,9 @@ Text can be **bold**, _italic_, or ~~strikethrough~~.
 
 [Link to another page](./another-page.html).
 
-- Crafting maps for uncharted solutions
-- There will be docs
-- Paving the road and cheetsheets for docs speedrunners
+There should be whitespace between paragraphs.
+
+There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
 
 # Header 1
 
