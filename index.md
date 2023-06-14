@@ -2,13 +2,30 @@
 layout: default
 ---
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+# Jonathan Pinetta - Portfolio
 
-[Link to another page](./another-page.html).
+## Introduction
+Introduce yourself and provide a brief overview of your background, skills, and areas of expertise.
 
-- Crafting maps for uncharted solutions
-- There will be docs
-- Paving the road and cheetsheets for docs speedrunners
+## Work Experience
+Provide detailed descriptions of your past work experiences, highlighting your roles, responsibilities, and achievements in each.
+
+## Success Cases
+Describe specific projects or implementations where you played a key role. Include information about the project goals, challenges faced, your contributions, and the outcomes achieved.
+
+## Skills
+List your key skills and areas of expertise related to your work. Include a brief description of each skill and how you have applied it in your projects.
+
+## Blog or Content Entries
+This section contains your blog posts or content entries, organized in a chronological or thematic order. Each entry should have a clear title, an introduction, and the main content. Consider adding tags or categories for easy navigation.
+
+## Contact Information
+Provide your contact details, such as email address or social media profiles, for visitors to reach out to you.
+
+
+> **_There will be docs_**
+> Shout out to every tech writer who raised their hands when the scrum master asked if there were any further questions, stating claiming documentation was key for preventing hell-like devastating fires that support would not be able to put out. 
+
 
 ## Project Leadership and Delivery
 
@@ -51,6 +68,8 @@ Text can be **bold**, _italic_, or ~~strikethrough~~.
 - Highlight the successful implementation of mobile and platform supply-chain logistics solutions for renowned clients.
 - Mention any notable metrics, improvements, or positive feedback received.
 
+> 
+> Paving the road and cheetsheets for docs speedrunners
 
 # Header 1
 
