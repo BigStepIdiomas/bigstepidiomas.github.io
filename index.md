@@ -24,6 +24,15 @@ Provide your contact details, such as email address or social media profiles, fo
 > Shout out to every tech writer who raised their hands when the scrum master asked if there were any further questions, stating claiming documentation was key for preventing hell-like devastating fires that support would not be able to put out. 
 
 
+<a class="btn" id="myButton">Button Text</a>
+
+<script>
+  document.getElementById('myButton').addEventListener('click', function() {
+    // JavaScript code to be executed when the button is clicked
+    // Add your custom logic here
+  });
+</script>
+
 ## Project Leadership and Delivery
 
 ### Introduction
