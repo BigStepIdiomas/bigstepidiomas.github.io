@@ -2,10 +2,6 @@
 layout: default
 ---
 
-<img src="_includes/profpic.jpeg", width="250" /> 
-<img src="_includes/profpic.md", width="250" />  
-<img src="_includes/profpic.png", width="250" /> 
-
 Introduce yourself and provide a brief overview of your background, skills, and areas of expertise.
 
 ## Work Experience
