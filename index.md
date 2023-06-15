@@ -2,8 +2,9 @@
 layout: default
 ---
 
-![Octocat](_includes\profpic.png)
+{% include sidebar.html %}
 
+<img src="/path/to/profile-picture.jpg" alt="Profile Picture">
 
 Introduce yourself and provide a brief overview of your background, skills, and areas of expertise.
 
