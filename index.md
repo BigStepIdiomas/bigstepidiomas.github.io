@@ -2,12 +2,12 @@
 layout: default
 ---
 
-![Alt Text](_includes/profpic.png)
-![Alt Text](_includes/profpic.md)
-![Alt Text](_includes/profpic.jpeg)
-<img src="_includes/profpic.jpeg" width="250" /> ![](_includes/profpic.jpeg) 
-<img src="_includes/profpic.md" width="250" /> ![](_includes/profpic.md) 
-<img src="_includes/profpic.png" width="250" /> ![](_includes/profpic.png) 
+(_includes/profpic.png)
+(_includes/profpic.md)
+(_includes/profpic.jpeg)
+<img src="_includes/profpic.jpeg" width="250" /> 
+<img src="_includes/profpic.md" width="250" />  
+<img src="_includes/profpic.png" width="250" /> 
 
 Introduce yourself and provide a brief overview of your background, skills, and areas of expertise.
 
