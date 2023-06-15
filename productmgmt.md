@@ -4,7 +4,7 @@ title: Product MGMT
 description: Crafting roadmaps for uncharted solutions
 ---
 
-## I do- I do- I do this every day
+## I do- I do- I do this every day :rocket::rocket::rocket: 
 
 _yay_
 

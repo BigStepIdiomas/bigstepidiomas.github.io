@@ -4,7 +4,7 @@ title: UX Writing
 description: Tailormade microcopy to suit up you apps
 ---
 
-## Mamma's secret recipe
+## Mamma's secret recipe :bulb::chart_with_upwards_trend::sunglasses:
 
 _yay_
 

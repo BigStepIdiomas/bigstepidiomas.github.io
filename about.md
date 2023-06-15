@@ -4,7 +4,7 @@ title: About
 description: Heyo there > Nagui here!
 ---
 
-## I regret nothing
+## I regret nothing :smile::tada::palm_tree: 
 
 _yay_
 

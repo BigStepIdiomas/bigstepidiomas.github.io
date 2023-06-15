@@ -4,7 +4,7 @@ title: Tech Writing
 description: There will be docs...
 ---
 
-## Putting out fires with docs since...
+## Putting out fires with docs since... :writing_hand::star2::fire:
 
 _Always fighting fire with fire_
 
