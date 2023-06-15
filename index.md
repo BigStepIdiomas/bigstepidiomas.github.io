@@ -2,9 +2,9 @@
 layout: default
 ---
 
-![Alt Text](_includes\profpic.png)
-![Alt Text](_includes\profpic.md)
-![Alt Text](_includes\profpic.jpeg)
+![Alt Text](_includes/profpic.png)
+![Alt Text](_includes/profpic.md)
+![Alt Text](_includes/profpic.jpeg)
 
 
 Introduce yourself and provide a brief overview of your background, skills, and areas of expertise.
