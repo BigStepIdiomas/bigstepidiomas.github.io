@@ -8,7 +8,7 @@ description: Heyo, Nagui here!
 
 _yay_
 
-<img src="_includes\hands docs.png" alt="Alt Text" width="300">
+<img src="_includes\handsdocs.png" alt="Putting out fires with docs" width="300">
 
 
 [back](./)
