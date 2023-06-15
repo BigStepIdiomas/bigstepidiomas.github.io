@@ -2,12 +2,7 @@
 layout: default
 ---
 
-<link rel="stylesheet" href="custom.css">
-
-<div class="sidebar">
-  <img class="profile-picture" src="_includes\profpic.png" alt="Profile Picture">
-  <!-- Add any other content you want to include in the sidebar -->
-</div>
+{% include sidebar.html %}
 
 Introduce yourself and provide a brief overview of your background, skills, and areas of expertise.
 
