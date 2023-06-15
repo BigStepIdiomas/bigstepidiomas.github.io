@@ -17,7 +17,7 @@
   }
   .sidebar .profile-picture {
     position: sticky;
-    top: 20px; /* Adjust the value according to your preference */
+    top: 200px; /* Adjust the value according to your preference */
   }
   
   img {
