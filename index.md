@@ -2,11 +2,17 @@
 layout: default
 ---
 
-{% include sidebar.html %}
+<!-- Add your header content here -->
 
-![Octocat](_includes\profpic.png)
-
-Introduce yourself and provide a brief overview of your background, skills, and areas of expertise.
+<div class="container">
+  <div class="row">
+    <div class="col-md-4">
+      <!-- Sidebar content goes here -->
+      {% include sidebar.html %}
+    </div>
+    <div class="col-md-8">
+      <!-- Main content goes here -->
+      Introduce yourself and provide a brief overview of your background, skills, and areas of expertise.
 
 ## Work Experience
 Provide detailed descriptions of your past work experiences, highlighting your roles, responsibilities, and achievements in each.
@@ -82,6 +88,17 @@ Provide your contact details, such as email address or social media profiles, fo
 > Paving the road and cheetsheets for docs speedrunners
 
 [About](about.md)
+    </div>
+  </div>
+</div>
+
+<!-- Add any other sections or content you want below -->
+
+
+
+
+
+
 
 
 
