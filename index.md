@@ -77,7 +77,11 @@ Provide your contact details, such as email address or social media profiles, fo
 >
 > Paving the road and cheetsheets for docs speedrunners
 
-[About](about.md)
+- [About](about.md)
+- [Tech Writing](techwriting.md)
+- [UX Writing](uxwriting.md)
+- [Product Mgmt](productmgmt.md)
+
 
 
 
