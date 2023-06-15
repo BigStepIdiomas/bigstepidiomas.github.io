@@ -4,7 +4,7 @@ title: Tech Writing
 description: _There will be docs..._
 ---
 
-## Welcome to another page
+## Putting out fires with docs since...
 
 _Putting out fires with docs_
 
