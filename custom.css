@@ -20,3 +20,7 @@
     top: 20px; /* Adjust the value according to your preference */
   }
   
+  img {
+    max-width: 100%;
+    height: auto;
+  }
