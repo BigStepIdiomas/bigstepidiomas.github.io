@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Tech Writing
-description: _There will be docs..._
+description: There will be docs...
 ---
 
 ## Putting out fires with docs since...
