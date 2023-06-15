@@ -2,6 +2,8 @@
 layout: default
 ---
 
+![Alt Text](_includes\profpic.png)
+
 Introduce yourself and provide a brief overview of your background, skills, and areas of expertise.
 
 ## Work Experience
