@@ -2,6 +2,40 @@
 layout: default
 ---
 
+<style>
+.tag {
+  display: inline-block;
+  padding: 5px 10px;
+  margin-right: 5px;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.tag-red {
+  background-color: #FF5C5C;
+  color: white;
+}
+
+.tag-green {
+  background-color: #42B983;
+  color: white;
+}
+
+.tag-blue {
+  background-color: #007BFF;
+  color: white;
+}
+</style>
+
+
+## Skills
+
+<span class="tag tag-red">UX Writing</span>
+<span class="tag tag-green">Tech Writing</span>
+<span class="tag tag-blue">API Docs</span>
+
+
 Introduce yourself and provide a brief overview of your background, skills, and areas of expertise.
 
 ## Work Experience
