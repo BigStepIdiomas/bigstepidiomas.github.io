@@ -31,9 +31,32 @@ layout: default
 
 ## Skills
 
-<span class="tag tag-red">UX Writing</span>
-<span class="tag tag-green">Tech Writing</span>
-<span class="tag tag-blue">API Docs</span>
+<span class="tag" style="background-color: #007bff;">UX Writing</span>
+<span class="tag" style="background-color: #28a745;">Technical Specification</span>
+<span class="tag" style="background-color: #dc3545;">API Docs</span>
+<span class="tag" style="background-color: #ffc107;">Technical Documentation</span>
+<span class="tag" style="background-color: #6f42c1;">Knowledge Base</span>
+<span class="tag" style="background-color: #fd7e14;">Translation</span>
+<span class="tag" style="background-color: #20c997;">English</span>
+<span class="tag" style="background-color: #e83e8c;">Installation Guides</span>
+<span class="tag" style="background-color: #6c757d;">Help Docs</span>
+<span class="tag" style="background-color: #17a2b8;">Troubleshooting</span>
+<span class="tag" style="background-color: #87ceeb;">Handbooks</span>
+<span class="tag" style="background-color: #90ee90;">Support Docs</span>
+<span class="tag" style="background-color: #ff6666;">Project Docs</span>
+<span class="tag" style="background-color: #ffff99;">Portuguese</span>
+<span class="tag" style="background-color: #d291bc;">Release Notes</span>
+<span class="tag" style="background-color: #ffb347;">German</span>
+<span class="tag" style="background-color: #98d8d8;">SDK</span>
+<span class="tag" style="background-color: #ffb6c1;">Product Discovery</span>
+<span class="tag" style="background-color: #d3d3d3;">UX Design</span>
+<span class="tag" style="background-color: #afeeee;">Spanish</span>
+<span class="tag" style="background-color: #cd853f;">Copywriting</span>
+<span class="tag" style="background-color: #ffa07a;">Microcopy</span>
+<span class="tag" style="background-color: #f08080;">Educational Material</span>
+<span class="tag" style="background-color: #da70d6;">Localization</span>
+<span class="tag" style="background-color: #8470ff;">User Guides</span>
+
 
 
 Introduce yourself and provide a brief overview of your background, skills, and areas of expertise.
