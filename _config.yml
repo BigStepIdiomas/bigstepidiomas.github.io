@@ -3,5 +3,7 @@ description: Crafting maps for uncharted solutions
 show_downloads: true
 google_analytics:
 theme: jekyll-theme-cayman
+jekyll_search:
+  search_posts_path: /search.json
 
 
