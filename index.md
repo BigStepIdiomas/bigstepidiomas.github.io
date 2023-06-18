@@ -10,7 +10,8 @@ layout: default
   color: #fff;
   font-size: 14px;
   font-weight: bold;
-  margin-right: 10px;
+  margin-right: 8px;
+  margin-bottom: 10px;
 }
 
 /* Add the background colors for each category */
