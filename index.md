@@ -57,7 +57,7 @@ layout: default
 <span class="tag" style="background-color: #87ceeb;">Handbooks</span>
 <span class="tag" style="background-color: #90ee90;">Support Docs</span>
 <span class="tag" style="background-color: #ff6666;">Project Docs</span>
-<span class="tag" style="background-color: #ffff99;">Portuguese</span>
+<span class="tag" style="background-color: #ff6666;">Portuguese</span>
 <span class="tag" style="background-color: #d291bc;">Release Notes</span>
 <span class="tag" style="background-color: #ffb347;">German</span>
 <span class="tag" style="background-color: #98d8d8;">SDK</span>
