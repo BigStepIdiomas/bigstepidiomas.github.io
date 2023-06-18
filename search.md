@@ -1,3 +1,11 @@
+---
+layout: default
+title: Search
+description: What're ya buyin?
+---
+
+## Got some rare things on sale, stranger! 
+
 <script src="{{ site.baseurl }}/assets/js/jekyll-search.js"></script>
 
 <script>
@@ -16,3 +24,6 @@
 
 
   <div id="search-results"></div>
+
+
+[back](./)
