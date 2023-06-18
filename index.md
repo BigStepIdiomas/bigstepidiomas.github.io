@@ -42,9 +42,6 @@ layout: default
 .tag:nth-child(25) { background-color: #8470ff; } /* User Guides */
 </style>
 
-
-## Skills
-
 <span class="tag" style="background-color: #007bff;">UX Writing</span>
 <span class="tag" style="background-color: #28a745;">Technical Specification</span>
 <span class="tag" style="background-color: #dc3545;">API Docs</span>
@@ -71,7 +68,7 @@ layout: default
 <span class="tag" style="background-color: #da70d6;">Localization</span>
 <span class="tag" style="background-color: #8470ff;">User Guides</span>
 
-
+## Skills
 
 Introduce yourself and provide a brief overview of your background, skills, and areas of expertise.
 
