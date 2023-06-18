@@ -149,6 +149,7 @@ Provide your contact details, such as email address or social media profiles, fo
 - [Tech Writing](techwriting.md)
 - [UX Writing](uxwriting.md)
 - [Product Mgmt](productmgmt.md)
+- [Search](search.html)
 
 
 
