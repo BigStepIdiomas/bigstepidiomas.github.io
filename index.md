@@ -75,6 +75,17 @@ Introduce yourself and provide a brief overview of your background, skills, and 
 ## Work Experience
 Provide detailed descriptions of your past work experiences, highlighting your roles, responsibilities, and achievements in each.
 
+<div class="callout tip">
+    <p>💡 This is a tip.</p>
+</div>
+
+<div class="callout note">
+    <p>📝 This is a note.</p>
+</div>
+
+<div class="callout warning">
+    <p⚠️> This is a warning.</p>
+</div>
 
 
 >
