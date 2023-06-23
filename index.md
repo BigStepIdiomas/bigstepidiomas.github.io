@@ -89,7 +89,7 @@ Provide detailed descriptions of your past work experiences, highlighting your r
 
 
 >
-> Paving the road and cheetsheets for docs speedrunners
+> ⚠️Paving the road and cheetsheets for docs speedrunners
 
 - [About](about.md)
 - [Tech Writing](techwriting.md)
