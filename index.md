@@ -75,18 +75,6 @@ Introduce yourself and provide a brief overview of your background, skills, and 
 ## Work Experience
 Provide detailed descriptions of your past work experiences, highlighting your roles, responsibilities, and achievements in each.
 
-<div class="callout tip">
-    <p>💡 This is a tip.</p>
-</div>
-
-<div class="callout note">
-    <p>📝 This is a note.</p>
-</div>
-
-<div class="callout warning">
-    <p>⚠️ This is a warning.</p>
-</div>
-
 
 >
 > ⚠️Paving the road and cheetsheets for docs speedrunners
@@ -96,6 +84,7 @@ Provide detailed descriptions of your past work experiences, highlighting your r
 - [UX Writing](uxwriting.md)
 - [Product Mgmt](productmgmt.md)
 - [Search](search.md)
+- [test](https://topaz-show-278.notion.site/Tags-be23b199b84542aeba90d09b996ce2e0?pvs=4)
 
 
 
