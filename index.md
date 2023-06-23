@@ -84,7 +84,7 @@ Provide detailed descriptions of your past work experiences, highlighting your r
 </div>
 
 <div class="callout warning">
-    <p⚠️> This is a warning.</p>
+    <p>⚠️ This is a warning.</p>
 </div>
 
 
