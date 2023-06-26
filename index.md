@@ -80,9 +80,7 @@ Provide detailed descriptions of your past work experiences, highlighting your r
 > ⚠️Paving the road and cheetsheets for docs speedrunners
 
 
-<a href="https://nagui.xyz/">
-<img src="_includes\chart-bars.gif" alt="Button">
-</a>
+<img src="_includes\chart-bars.gif">
 
 
 
