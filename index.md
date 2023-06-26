@@ -79,6 +79,13 @@ Provide detailed descriptions of your past work experiences, highlighting your r
 >
 > ⚠️Paving the road and cheetsheets for docs speedrunners
 
+<div class="gif-button-wrapper">
+  <a href="about.md">
+    <img src="_includes\chart-bars.gif" alt="Button" class="gif-button">
+  </a>
+</div>
+
+
 - [About](about.md)
 - [Tech Writing](techwriting.md)
 - [UX Writing](uxwriting.md)
