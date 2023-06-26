@@ -79,11 +79,11 @@ Provide detailed descriptions of your past work experiences, highlighting your r
 >
 > ⚠️Paving the road and cheetsheets for docs speedrunners
 
-<div class="gif-button-wrapper">
-  <a href="https://nagui.xyz/">
-    <img src="_includes\chart-bars.gif" alt="Button" class="gif-button">
-  </a>
-</div>
+
+<a href="https://nagui.xyz/">
+<img src="_includes\chart-bars.gif" alt="Button" class="gif-button">
+</a>
+
 
 
 - [About](about.md)
