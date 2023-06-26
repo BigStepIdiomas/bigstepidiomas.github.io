@@ -80,10 +80,6 @@ Provide detailed descriptions of your past work experiences, highlighting your r
 > ⚠️Paving the road and cheetsheets for docs speedrunners
 
 
-<img src="_includes\chart-bars.gif">
-
-
-
 - [About](about.md)
 - [Tech Writing](techwriting.md)
 - [UX Writing](uxwriting.md)
