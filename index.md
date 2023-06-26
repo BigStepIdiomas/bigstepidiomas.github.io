@@ -81,7 +81,7 @@ Provide detailed descriptions of your past work experiences, highlighting your r
 
 
 <a href="https://nagui.xyz/">
-<img src="_includes\chart-bars.gif" alt="Button" class="gif-button">
+<img src="_includes\chart-bars.gif" alt="Button">
 </a>
 
 
