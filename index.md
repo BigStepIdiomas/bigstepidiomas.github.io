@@ -2,82 +2,50 @@
 layout: default
 ---
 
-<style>
-.tag {
-  display: inline-block;
-  padding: 4px 8px;
-  border-radius: 4px;
-  color: #fff;
-  font-size: 14px;
-  font-weight: bold;
-  margin-right: 8px;
-  margin-bottom: 10px;
-}
-
-/* Add the background colors for each category */
-.tag:nth-child(1) { background-color: #007bff; } /* UX Writing */
-.tag:nth-child(2) { background-color: #28a745; } /* Technical Specification */
-.tag:nth-child(3) { background-color: #dc3545; } /* API Docs */
-.tag:nth-child(4) { background-color: #ffc107; } /* Technical Documentation */
-.tag:nth-child(5) { background-color: #6f42c1; } /* Knowledge Base */
-.tag:nth-child(6) { background-color: #fd7e14; } /* Translation */
-.tag:nth-child(7) { background-color: #20c997; } /* English */
-.tag:nth-child(8) { background-color: #e83e8c; } /* Installation Guides */
-.tag:nth-child(9) { background-color: #6c757d; } /* Help Docs */
-.tag:nth-child(10) { background-color: #17a2b8; } /* Troubleshooting */
-.tag:nth-child(11) { background-color: #87ceeb; } /* Handbooks */
-.tag:nth-child(12) { background-color: #90ee90; } /* Support Docs */
-.tag:nth-child(13) { background-color: #ff6666; } /* Project Docs */
-.tag:nth-child(14) { background-color: #ffff99; } /* Portuguese */
-.tag:nth-child(15) { background-color: #d291bc; } /* Release Notes */
-.tag:nth-child(16) { background-color: #ffb347; } /* German */
-.tag:nth-child(17) { background-color: #98d8d8; } /* SDK */
-.tag:nth-child(18) { background-color: #ffb6c1; } /* Product Discovery */
-.tag:nth-child(19) { background-color: #d3d3d3; } /* UX Design */
-.tag:nth-child(20) { background-color: #afeeee; } /* Spanish */
-.tag:nth-child(21) { background-color: #cd853f; } /* Copywriting */
-.tag:nth-child(22) { background-color: #ffa07a; } /* Microcopy */
-.tag:nth-child(23) { background-color: #f08080; } /* Educational Material */
-.tag:nth-child(24) { background-color: #da70d6; } /* Localization */
-.tag:nth-child(25) { background-color: #8470ff; } /* User Guides */
-</style>
-
-<span class="tag" style="background-color: #007bff;">UX Writing</span>
-<span class="tag" style="background-color: #28a745;">Technical Specification</span>
-<span class="tag" style="background-color: #dc3545;">API Docs</span>
-<span class="tag" style="background-color: #ffc107;">Technical Documentation</span>
-<span class="tag" style="background-color: #6f42c1;">Knowledge Base</span>
-<span class="tag" style="background-color: #fd7e14;">Translation</span>
-<span class="tag" style="background-color: #20c997;">English</span>
-<span class="tag" style="background-color: #e83e8c;">Installation Guides</span>
-<span class="tag" style="background-color: #6c757d;">Help Docs</span>
-<span class="tag" style="background-color: #17a2b8;">Troubleshooting</span>
-<span class="tag" style="background-color: #87ceeb;">Handbooks</span>
-<span class="tag" style="background-color: #90ee90;">Support Docs</span>
-<span class="tag" style="background-color: #ff6666;">Project Docs</span>
-<span class="tag" style="background-color: #ff6666;">Portuguese</span>
-<span class="tag" style="background-color: #d291bc;">Release Notes</span>
-<span class="tag" style="background-color: #ffb347;">German</span>
-<span class="tag" style="background-color: #98d8d8;">SDK</span>
-<span class="tag" style="background-color: #ffb6c1;">Product Discovery</span>
-<span class="tag" style="background-color: #d3d3d3;">UX Design</span>
-<span class="tag" style="background-color: #afeeee;">Spanish</span>
-<span class="tag" style="background-color: #cd853f;">Copywriting</span>
-<span class="tag" style="background-color: #ffa07a;">Microcopy</span>
-<span class="tag" style="background-color: #f08080;">Educational Material</span>
-<span class="tag" style="background-color: #da70d6;">Localization</span>
-<span class="tag" style="background-color: #8470ff;">User Guides</span>
+## Success Cases
+Describe specific projects or implementations where you played a key role. Include information about the project goals, challenges faced, your contributions, and the outcomes achieved.
 
 ## Skills
+List your key skills and areas of expertise related to your work. Include a brief description of each skill and how you have applied it in your projects.
 
-Introduce yourself and provide a brief overview of your background, skills, and areas of expertise.
+## Blog or Content Entries
+This section contains your blog posts or content entries, organized in chronological or thematic order. Each entry should have a clear title, an introduction, and the main content. Consider adding tags or categories for easy navigation.
 
-## Work Experience
-Provide detailed descriptions of your past work experiences, highlighting your roles, responsibilities, and achievements in each.
+## **Contact Information**
+Provide your contact details, such as email addresses or social media profiles, for visitors to contact you.
 
+## **Expertise:**
+I have developed expertise in a range of areas, allowing me to excel in my roles and deliver impactful results. Here are the key areas where I bring my skills and knowledge:
 
->
-> ⚠️Paving the road and cheetsheets for docs speedrunners
+- **Technical Writing:**
+  With a strong background in technical writing, I have the ability to distill complex information into clear and concise documentation. I excel in creating user manuals, guides, and technical documentation that effectively communicate complex concepts to diverse audiences.
+
+- **User Experience (UX):**
+  My understanding of user experience principles enables me to create intuitive and user-friendly interfaces. I focus on enhancing user satisfaction by improving the usability, accessibility, and overall interaction between users and digital products.
+
+- **UX Writing:**
+  As a UX writer, I excel in crafting compelling and engaging content that aligns with the user experience. I ensure that every word and phrase is carefully chosen to guide users and provide them with a seamless and enjoyable experience.
+
+- **Copywriting / Copy Reviewing:**
+  I have a keen eye for crafting persuasive and impactful copy. Whether it's writing marketing materials, website content, or promotional campaigns, I can create compelling narratives that resonate with the target audience. I am also experienced in reviewing and refining existing copy to enhance its effectiveness.
+
+- **Product Management:**
+  With a solid background in product management, I am skilled in overseeing the entire product lifecycle. From ideation and requirements gathering to roadmap planning and launch, I ensure the successful development and delivery of products that meet customer needs and drive business growth.
+
+- **Product Ownership:**
+  I have a strong sense of ownership and responsibility for the products I work on. As a product owner, I take the lead in defining the product vision, setting priorities, and collaborating with cross-functional teams to deliver value to customers.
+
+- **Business Analysis:**
+  With my analytical mindset and business acumen, I excel in analyzing complex business systems, identifying user needs, and translating them into actionable requirements. I have experience in documenting business processes, conducting market research, and facilitating effective communication between stakeholders.
+
+- **Translation:**
+  With my language skills, including fluency in English, Spanish, Portuguese, and basic proficiency in German, French, and Chinese, I am adept at translating and localizing content for global audiences. I ensure accurate and culturally appropriate translations that maintain the integrity of the original content.
+
+- **UI Translation / Software Localization:**
+  I specialize in translating user interfaces and localizing software for different markets. I understand the importance of adapting software and interfaces to meet the linguistic and cultural preferences of diverse users.
+
+My expertise in these areas has allowed me to contribute to the success of various projects and deliver high-quality results for renowned companies.
+
 
 ![Octocat](_includes\graphic-bars2.gif)
 
