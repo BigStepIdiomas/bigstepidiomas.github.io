@@ -114,7 +114,7 @@ Currently, there is no 1st or 2nd level Support at DoxHut that we can provide to
 
 ## Timeline
 
-![Timeline](/_includes/timeline-project-desk.png)
+![Timeline](./_includes/timeline-project-desk.png)
 
 
 
