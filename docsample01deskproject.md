@@ -33,12 +33,13 @@ description: There will be docs...
 <span class="tag" style="background-color: #ff6666;">Project Docs</span>
 
 
+> ⚠️ About this docs sample...
 
 # DoxHut's HelpDesk Project
 
 ![intro](images-projectdesk-intro.png)
 
-### Project Info
+## In this Document
 - Problem Statement
 - Scope
 - Timeline
@@ -98,6 +99,8 @@ Currently, there is no 1st or 2nd level Support at DoxHut that we can provide to
 ## Timeline
 
 ![Timeline](timeline-project-desk.png)
+
+## Milestones and deadlines
 
 | Milestone               | Owner                                        | Deadline | Status           |
 |-------------------------|----------------------------------------------|----------|------------------|
