@@ -11,13 +11,13 @@ List your key skills and areas of expertise related to your work. Include a brie
 ## Blog or Content Entries
 This section contains your blog posts or content entries, organized in chronological or thematic order. Each entry should have a clear title, an introduction, and the main content. Consider adding tags or categories for easy navigation.
 
-## **Contact Information**
+## Contact Information
 Provide your contact details, such as email addresses or social media profiles, for visitors to contact you.
 
-## **Expertise:**
+## Expertise:
 I have developed expertise in a range of areas, allowing me to excel in my roles and deliver impactful results. Here are the key areas where I bring my skills and knowledge:
 
-- **Technical Writing:**
+- ###Technical Writing:###
   With a strong background in technical writing, I have the ability to distill complex information into clear and concise documentation. I excel in creating user manuals, guides, and technical documentation that effectively communicate complex concepts to diverse audiences.
 
 - **User Experience (UX):**
@@ -41,7 +41,7 @@ I have developed expertise in a range of areas, allowing me to excel in my roles
 - **Translation:**
   With my language skills, including fluency in English, Spanish, Portuguese, and basic proficiency in German, French, and Chinese, I am adept at translating and localizing content for global audiences. I ensure accurate and culturally appropriate translations that maintain the integrity of the original content.
 
-- **UI Translation / Software Localization:**
+- UI Translation / Software Localization:
   I specialize in translating user interfaces and localizing software for different markets. I understand the importance of adapting software and interfaces to meet the linguistic and cultural preferences of diverse users.
 
 My expertise in these areas has allowed me to contribute to the success of various projects and deliver high-quality results for renowned companies.
