@@ -87,6 +87,7 @@ Provide detailed descriptions of your past work experiences, highlighting your r
 - [UX Writing](uxwriting.md)
 - [Product Mgmt](productmgmt.md)
 - [Search](search.md)
+- [Project Docs](docsample01deskproject.md)
 - [test](https://topaz-show-278.notion.site/Tags-be23b199b84542aeba90d09b996ce2e0?pvs=4)
 
 
