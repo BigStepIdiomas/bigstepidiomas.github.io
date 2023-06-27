@@ -33,7 +33,11 @@ description: There will be docs...
 <span class="tag" style="background-color: #ff6666;">Project Docs</span>
 
 
-> ⚠️ About this docs sample...
+> 🥑  I worked for this US company that came up with this cutting-edge computer vision and AI model for recognizing patterns within fast-food chains' kitchens to predict and prevent issues, thus improving processes and quality while cutting expenses. They caught the eyes of industry titans such as Mc Donalds, KFC, and Taco Bell. Back then, their business model appeared solid, and their team was constituted of not more than sixty people, from devs to field technicians. 
+
+Since they were still running MVPs and PoCs, they faced a common issue almost every startup shares: no documentation culture. Nearly every process and task was carried out without being properly documented, from technical specifications to post-mortems, from user stories to customer-facing product docs, from a ticketing system to troubleshooting and support handbooks. I took on the role of their Tech Writer. I was assigned directly by the CEO the vital task of consolidating and converging all internal documentation into a robust (and nice-looking) knowledge base. As I got used to their operation, projects' specifics, and teams' dynamics, I noticed they had a vital gear missing in the whole mechanism. They did not have a Service Desk Portal for the customers to report incidents (Every single issue was reported through email or a direct phone line).
+
+As I had already been in a company that went through a similar situation, I came up with a proposal. I designed an Incident Management Process layout for their Support Agents to follow and a Help Desk Solution for their Customers and Field Technicians to consult. The following document was intended to be the project's specification cover.
 
 # DoxHut's HelpDesk Project
 
