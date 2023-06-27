@@ -114,9 +114,8 @@ Currently, there is no 1st or 2nd level Support at DoxHut that we can provide to
 
 ## Timeline
 
-<div>
-<img src="_includes\timeline-project-desk.png" width="100%">
-</div>
+![Alt Text](_includes\timeline-project-desk.png)
+
 
 
 
