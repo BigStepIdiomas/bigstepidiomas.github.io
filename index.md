@@ -44,7 +44,7 @@ I have developed expertise in a range of areas, allowing me to excel in my roles
 - **Translation:**
   With my language skills, including fluency in English, Spanish, Portuguese, and basic proficiency in German, French, and Chinese, I am adept at translating and localizing content for global audiences. I ensure accurate and culturally appropriate translations that maintain the integrity of the original content.
 
-- UI Translation / Software Localization:
+- **UI Translation / Software Localization:**
   I specialize in translating user interfaces and localizing software for different markets. I understand the importance of adapting software and interfaces to meet the linguistic and cultural preferences of diverse users.
 
 My expertise in these areas has allowed me to contribute to the success of various projects and deliver high-quality results for renowned companies.
