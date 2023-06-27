@@ -19,9 +19,7 @@ description: There will be docs...
 /* Add the background colors for each category */
 .tag:nth-child(4) { background-color: #ffc107; } /* Technical Documentation */
 .tag:nth-child(5) { background-color: #6f42c1; } /* Knowledge Base */
-.tag:nth-child(6) { background-color: #fd7e14; } /* Translation */
 .tag:nth-child(7) { background-color: #20c997; } /* English */
-.tag:nth-child(11) { background-color: #87ceeb; } /* Handbooks */
 .tag:nth-child(12) { background-color: #90ee90; } /* Support Docs */
 .tag:nth-child(13) { background-color: #ff6666; } /* Project Docs */
 
@@ -31,7 +29,6 @@ description: There will be docs...
 <span class="tag" style="background-color: #ffc107;">Technical Documentation</span>
 <span class="tag" style="background-color: #6f42c1;">Knowledge Base</span>
 <span class="tag" style="background-color: #20c997;">English</span>
-<span class="tag" style="background-color: #87ceeb;">Handbooks</span>
 <span class="tag" style="background-color: #90ee90;">Support Docs</span>
 <span class="tag" style="background-color: #ff6666;">Project Docs</span>
 
@@ -40,12 +37,6 @@ description: There will be docs...
 # DoxHut's HelpDesk Project
 
 ![intro](images-projectdesk-intro.png)
-
-| Document Owner        | @Jonathan Pinetta (Unlicensed) |
-|-----------------------|-------------------------------|
-| Status                | IN PROGRESS                   |
-| Reviewed by           | @Manuel Luna (Unlicensed)     |
-| Last reviewed on      | Apr 22, 2022                  |
 
 ### Project Info
 - Problem Statement
@@ -56,16 +47,7 @@ description: There will be docs...
 
 ## Project Info
 
-| Attribute    | Value                         |
-|--------------|-------------------------------|
-| Driver       | @Manuel Luna (Unlicensed)     |
-| Approver     | @Agot Admin (Unlicensed)      |
-| Contributors | @Jonathan Pinetta (Unlicensed)|
-| Informed     | N/A                           |
-| Objective    | Establish 1st and 2nd Level Support<br>Set up a Help Desk and Ticketing System |
-| Due date     | May 2, 2022                   |
-| Key outcomes | Improve current Incident Management Workflow<br>Improve Customer Help and Communication<br>Consolidate procedures and workflows for defining an SLA |
-| Status       | PENDING APPROVAL              |
+![info](images-projectdesk-fichainfo.png)
 
 ## Problem Statement
 Currently, there is no 1st or 2nd level Support at DoxHut that we can provide to our customers nor an established or defined process our customers must follow to receive the necessary help when facing technical issues or assistance requests.
@@ -117,11 +99,35 @@ Currently, there is no 1st or 2nd level Support at DoxHut that we can provide to
 
 ![Timeline](timeline-project-desk.png)
 
+| Milestone               | Owner                                        | Deadline | Status           |
+|-------------------------|----------------------------------------------|----------|------------------|
+| Set up FreshDesk solution    | Include/cover all elements from Must Have | TBD      | IN PROGRESS      |
+| Define roles             | Define 1st                                  | TBD      | PENDING APPROVAL |
+|                          | Define 2nd                                  |          |                  |
+| Assign responsibilities  | Train and onboard collaborators             | TBD      |                  |
+| Create documentation     | Incident Management Docs                    | TBD      | IN PROGRESS      |
+|                          | Troubleshooting Docs for Field Technicians  |          |                  |
+|                          | Runbooks / Playbooks                         |          |                  |
+|                          | FAQ/Help Docs for Help Desk Portal          |          |                  |
+| Help Desk Pilot          | Kickoff                                     | TBD      | PENDING APPROVAL |
+|                          | Assess Results                              |          |                  |
+| Analyze FreshDesk Upgrade|                                              | TBD      |                  |
+| Calling Tool             | Analyze feasibility                         | TBD      |                  |
+|                          | Analyze hiring DRI/s for wider coverage      |          |                  |
+| SLA                      | Definition                                  | TBD      | PENDING APPROVAL |
+|                          | Documentation                               |          |                  |
+| Metrics                  | Analyze Pilot Results and Define Metrics     | TBD      | PENDING APPROVAL |
+|                          | Define goals                                |          |                  |
+|                          | Define means for communicating customer      |          |                  |
+|                          | (e.g., Dashboards/KPI via email)             |          |                  |
 
-
-
-
-
+## Reference Material
+- Incident Management Project
+- Incident Management Handbook
+- Runbooks
+- FreshDesk Implementation Blueprint
+- FreshDesk Documentation
+- Helpdesk - Customer Portal
 
 
 [back](./)
