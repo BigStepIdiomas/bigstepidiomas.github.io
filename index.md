@@ -47,8 +47,7 @@ I have developed expertise in a range of areas, allowing me to excel in my roles
 My expertise in these areas has allowed me to contribute to the success of various projects and deliver high-quality results for renowned companies.
 
 
-![Octocat](_includes\graphic-bars2.gif)
-
+**Browse for Samples**
 
 - [About](about.md)
 - [Tech Writing](techwriting.md)
