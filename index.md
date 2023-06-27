@@ -79,6 +79,8 @@ Provide detailed descriptions of your past work experiences, highlighting your r
 >
 > ⚠️Paving the road and cheetsheets for docs speedrunners
 
+![Octocat](_includes\graphic-bars2.gif)
+
 
 - [About](about.md)
 - [Tech Writing](techwriting.md)
