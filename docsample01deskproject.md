@@ -56,7 +56,7 @@ Currently, there is no 1st or 2nd level Support at DoxHut that we can provide to
 
 ## Scope
 
-![Scope](images-projectdesk-scope.png)
+![Scope](images-projectdesk-milestones3.png)
 
 ## Timeline
 
