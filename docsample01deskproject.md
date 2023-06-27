@@ -75,9 +75,4 @@ Currently, there is no 1st or 2nd level Support at DoxHut that we can provide to
 - FreshDesk Documentation
 - Helpdesk - Customer Portal
 
-<div style="text-align: right">
-
 [Back](./)
-
-</div>
-
