@@ -39,6 +39,7 @@ description: There will be docs...
 
 # DoxHut's HelpDesk Project
 
+![intro](images-projectdesk-intro.png)
 
 | Document Owner        | @Jonathan Pinetta (Unlicensed) |
 |-----------------------|-------------------------------|
