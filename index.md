@@ -17,7 +17,7 @@ Provide your contact details, such as email addresses or social media profiles, 
 ## Expertise:
 I have developed expertise in a range of areas, allowing me to excel in my roles and deliver impactful results. Here are the key areas where I bring my skills and knowledge:
 
-- ###Technical Writing:###
+- **Technical Writing**
   With a strong background in technical writing, I have the ability to distill complex information into clear and concise documentation. I excel in creating user manuals, guides, and technical documentation that effectively communicate complex concepts to diverse audiences.
 
 - **User Experience (UX):**
@@ -47,7 +47,7 @@ I have developed expertise in a range of areas, allowing me to excel in my roles
 My expertise in these areas has allowed me to contribute to the success of various projects and deliver high-quality results for renowned companies.
 
 
-**Browse for Samples**
+## Browse for Samples 
 
 - [About](about.md)
 - [Tech Writing](techwriting.md)
