@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Nagui Pinetta Docs
+title: Nagui Pinetta
 description: Crafting maps for uncharted solutions
 ---
 
