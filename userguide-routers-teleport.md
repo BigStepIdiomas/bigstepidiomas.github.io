@@ -61,9 +61,8 @@ To access a server:
 
 1. List the existing servers by running: <br>
 `tsh ls` <br>
-   You will see all servers listed as shown next
-
-![servers](images-changingpasswords-serverslist.png)
+   You will see all servers listed as shown next 
+   ![servers](images-changingpasswords-serverslist.png)
 
 2. Select a server and access it:<br>
 `tsh ssh doxhut@doxhut-2-xavier-0` (example)
