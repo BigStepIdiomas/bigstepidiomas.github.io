@@ -1,7 +1,7 @@
 ---
 layout: default
 title: UX Writing
-description: Tailormade microcopy to suit up you apps
+description: Tailormade microcopy to suit up your apps
 ---
 
 > 🛠 This page is currently undergoing maintenance. We apologize for any inconvenience caused. The content will be made available soon. Thank you for your patience.
@@ -11,4 +11,4 @@ description: Tailormade microcopy to suit up you apps
 </div>
 
 
-[back](./)
+[Back](./)
