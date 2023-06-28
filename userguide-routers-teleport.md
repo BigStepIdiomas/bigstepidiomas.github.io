@@ -1,8 +1,10 @@
 ---
 layout: default
-title: Changing Routers Passwords on Teleport
+title: Guides - Sample 01
 description: Interns and newcommers wondered if it was already Christmas
 ---
+
+# Changing Routers Passwords on Teleport
 
 <style>
 .tag {
