@@ -55,17 +55,14 @@ These areas of expertise have allowed me to contribute to the success of various
 
 ⚠️ Please, be aware this portfolio is still under construction. After neverending searches for the right tool to cast my docs samples, I came up with a different approach using GitPages. It's been a fantastic ride so far, full of new learning and challenges, but of course, there's still a lot of room for improvement. Feel free to take a look at its content. I apologize in advance for any inconsistencies whatsoever.
 
-- [Tech Writing](techwriting.md)
-- [UX Writing](uxwriting.md)
-- [Product Mgmt](productmgmt.md)
-- [Search](search.md)
 - [Project Docs](docsample01deskproject.md)
+- [User Guides](userguide-routers-teleport.md)
 - [About](about.md)
 - [test](https://topaz-show-278.notion.site/Tags-be23b199b84542aeba90d09b996ce2e0?pvs=4)
 
 
 ## Contact Information
-Feel welcome to reach out though [Linkedin](https://www.linkedin.com/in/jonathan-demian-pinetta/).
+Be welcome to reach out though [Linkedin](https://www.linkedin.com/in/jonathan-demian-pinetta/).
 
 
 
