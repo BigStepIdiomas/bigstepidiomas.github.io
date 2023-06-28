@@ -17,31 +17,31 @@ description: Interns and newcommers wondered if it was already Christmas
 
 ## Actions Required
 
-- Create Passwords and Sections for Servers on LastPass
-- Access Servers and Change Routers Passwords
-- Add SREs SSH RSA Keys to the Routers Authorized Keys
-- Set Server Time
+- Create passwords and sections for servers on **LastPass**
+- Access servers and change routers passwords
+- Add **SREs' SSH RSA keys** to the routers authorized keys
+- Set server time
 
 ## Prerequisites
 
-- Having a LastPass user
-- Having a Teleport User
-- Having Teleport installed
-- Having Necessary SSH RSA Keys
-- Knowing which Servers to make changes on.
+- Having a **LastPass user**
+- Having a **Teleport User**
+- Having **Teleport installed**
+- Having necessary **SSH RSA Keys**
+- Knowing which servers to make changes to.
 
 ## Creating Passwords for Stores' Routers on LastPass
 
-To create a section for each store’s router password on LastPass:
+To create a section for each store’s router password on **LastPass**:
 
-1. Access Agot’s LastPass Password Manager panel.
-2. Create a New Item by clicking the plus sign located at the bottom right corner. This action will open a modal where you must fill in a few fields. <br> ![createnew](images-changingpasswords-createnew.png)
-3. Fill in the Name field with the server’s name.
-4. Fill in the Folder field with the “Shared-stores” value.
-5. Fill in the Username with “root.”
-6. Create a strong password (use the LastPass' Generate Secure Password tool).
-7. Copy the password and paste it into the Site password field.
-8. Save this configuration by clicking Save.
+1. Access **DoxHut's LastPass Password Manager** panel.
+2. Create a **New Item** by clicking the plus icon located at the bottom right corner. This action will open a modal where you must fill in a few fields. <br> ![createnew](images-changingpasswords-createnew.png)
+3. Fill in the **Name** field with the server’s name.
+4. Fill in the **Folder** field with the “**Shared-stores**” value.
+5. Fill in the **Username** with “**root**.”
+6. Create a strong password (use the **LastPass' Generate Secure Password** tool).
+7. Copy the password and paste it into the **Site Password** field.
+8. Save this configuration by clicking **Save**.
 9. Repeat the whole process for each of the servers listed below.
 
 ![createnew2](images-changingpasswords-createnew2.png)
@@ -103,5 +103,6 @@ Since you are already on the server, use the chance to set the server’s time b
 
 `uci set system.ntp.enable_server='1' ; uci commit system ; /etc/init.d/sysntpd restart`
 
-> 💡 **Note**: You will not get any confirmation message for this last step.
+> 💡 **Note**: You will not get any confirmation message for this last step.<br><br>
 
+[back](./)
