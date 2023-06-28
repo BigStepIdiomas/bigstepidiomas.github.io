@@ -101,7 +101,7 @@ To set an **SREs SSH RSA key** in the router:<br>
 
 9. Press **“i”** to activate the editor mode and paste a second key.<br>
 
-10. Repeat as many times as keys you must insert in the file.<br>
+10. Repeat the process for key you must insert in the file.<br>
 
 11. Finally, make sure you are not in the editor mode, and press **“:wq”** to save changes and quit. <br>
 
