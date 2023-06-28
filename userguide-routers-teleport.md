@@ -69,7 +69,7 @@ To access a server:
 
 ## Setting SREs SSH RSA Keys
 
-To set an SREs SSH RSA key in the router:<br>
+To set an **SREs SSH RSA key** in the router:<br>
 
 1. Run:<br>
 `cd /root`
@@ -85,7 +85,7 @@ To set an SREs SSH RSA key in the router:<br>
 
 5. Once on the **Vim editor**, press **“i”** to activate the editor mode.<br>
 
-6. Paste one of the SSH RSA keys.<br>
+6. Paste one of the **SSH RSA keys**.<br>
 
 7. Press **“Esc”** to exit edit mode.<br>
 
@@ -101,7 +101,7 @@ To set an SREs SSH RSA key in the router:<br>
 
 Since you are already on the server, use the chance to set the server’s time by running:
 
-`uci set system.ntp.enable_server='1' ; uci commit system ; /etc/init.d/sysntpd restart`
+`uci set system.ntp.enable_server='1' ; uci commit system ; /etc/init.d/sysntpd restart`<br>
 
 > 💡 **Note**: You will not get any confirmation message for this last step.<br><br>
 
