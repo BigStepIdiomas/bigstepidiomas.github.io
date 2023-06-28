@@ -14,7 +14,10 @@ asd
 
 ### Goal
 
-This document aims to provide Field Technicians with a comprehensive overview of common issues and practical guidelines on how to effectively address them. It covers a wide range of scenarios, including remote troubleshooting and on-site analysis, offering actionable steps for resolution.
+This document aims to provide **Field Technicians** with a comprehensive overview of common issues and practical guidelines on how to effectively address them. It covers a wide range of scenarios, including remote troubleshooting and on-site analysis, offering actionable steps for resolution.
+
+> 💡 Contact **SRE's Team Leader** for further questions via Slack.
+> 📡 Is there anything missing? Reach out to our **Tech Writer** via Slack.
 
 ## In-Store Monitoring Service
 
