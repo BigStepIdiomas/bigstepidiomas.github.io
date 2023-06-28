@@ -16,7 +16,7 @@ asd
 
 This document aims to provide **Field Technicians** with a comprehensive overview of common issues and practical guidelines on how to effectively address them. It covers a wide range of scenarios, including remote troubleshooting and on-site analysis, offering actionable steps for resolution.
 
-> 💡 Contact **SRE's Team Leader** for further questions via Slack.
+> 💡 Contact **SRE's Team Leader** for further questions via Slack.<br>
 > 📡 Is there anything missing? Reach out to our **Tech Writer** via Slack.
 
 ### On this Page
@@ -47,10 +47,9 @@ This document aims to provide **Field Technicians** with a comprehensive overvie
 - [Switch](#switch)
   - [Switch is Off](#switch-is-off)
   - [Server Issue / Server is Off](#server-issue--server-is-off)
-  
+
 
 ## In-Store Monitoring Service
-
 ### Connection Issue
 
 ![image](images-fieldtechnicians-in-store1.png)
@@ -60,7 +59,6 @@ This document aims to provide **Field Technicians** with a comprehensive overvie
 ![image](images-fieldtechnicians-in-store2.png)
 
 ## NAS
-
 ### NAS is Full
 
 ![image](images-fieldtechnicians-nas1.png)
@@ -74,7 +72,6 @@ This document aims to provide **Field Technicians** with a comprehensive overvie
 ![image](images-fieldtechnicians-nas3.png)
 
 ## Router
-
 ### Router is Broken
 
 ![image](images-fieldtechnicians-router1.png)
@@ -88,7 +85,6 @@ This document aims to provide **Field Technicians** with a comprehensive overvie
 ![image](images-fieldtechnicians-router3.png)
 
 ## Server
-
 ### Internal Disc Full
 
 ![image](images-fieldtechnicians-server1.png)
@@ -122,7 +118,6 @@ This document aims to provide **Field Technicians** with a comprehensive overvie
 ![image](images-fieldtechnicians-server8.png)
 
 ## Smart Power Supply
-
 ### Power Switch Unreachable (Not Shown/ No Message)
 
 ![image](images-fieldtechnicians-powersupply1.png)
@@ -132,7 +127,6 @@ This document aims to provide **Field Technicians** with a comprehensive overvie
 ![image](images-fieldtechnicians-powersupply2.png)
 
 ## Switch
-
 ### Switch is Off
 
 ![image](images-fieldtechnicians-switch1.png)
