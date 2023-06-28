@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Project Docs
+title: Project Docs - Sample 01
 description: There will be docs...
 ---
 
