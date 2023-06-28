@@ -36,7 +36,8 @@ To create a section for each store’s router password on **LastPass**:
 
 1. Access **DoxHut's LastPass Password Manager** panel.<br>
 
-2. Create a **New Item** by clicking the plus icon located at the bottom right corner. This action will open a modal where you must fill in a few fields. <br> ![createnew](images-changingpasswords-createnew.png)<br>
+2. Create a **New Item** by clicking the plus icon located at the bottom right corner. This action will open a modal where you must fill in a few fields. <br> 
+![createnew](images-changingpasswords-createnew.png)<br>
 
 3. Fill in the **Name** field with the server’s name.<br>
 
