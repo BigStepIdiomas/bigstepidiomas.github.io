@@ -35,10 +35,7 @@ description: Interns and newcommers wondered if it was already Christmas
 To create a section for each store’s router password on LastPass:
 
 1. Access Agot’s LastPass Password Manager panel.
-2. Create a New Item by clicking the plus sign located at the bottom right corner. This action will open a modal where you must fill in a few fields.
-
-![createnew](images-changingpasswords-createnew.png)
-
+2. Create a New Item by clicking the plus sign located at the bottom right corner. This action will open a modal where you must fill in a few fields. <br> ![createnew](images-changingpasswords-createnew.png)
 3. Fill in the Name field with the server’s name.
 4. Fill in the Folder field with the “Shared-stores” value.
 5. Fill in the Username with “root.”
