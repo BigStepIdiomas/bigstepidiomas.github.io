@@ -6,7 +6,7 @@ description: Interns and newcommers wondered if it was already Christmas
 
 ![intro](images-changingpasswords-info.png)
 
-# On this Page:
+## On this Page:
 
 - [Actions Required](#actions-required)
 - [Prerequisites](#prerequisites)
