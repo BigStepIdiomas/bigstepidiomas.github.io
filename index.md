@@ -62,7 +62,7 @@ These areas of expertise have allowed me to contribute to the success of various
 
 
 ## Contact Information
-Be welcome to reach out though [Linkedin](https://www.linkedin.com/in/jonathan-demian-pinetta/).
+Be welcome to reach out through [Linkedin](https://www.linkedin.com/in/jonathan-demian-pinetta/).
 
 
 
