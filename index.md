@@ -32,19 +32,19 @@ By continuously learning about our users, products, and market demands, I strive
 
 I have developed expertise in several key areas, allowing me to contribute effectively and deliver meaningful outcomes. Here are the areas where I bring my skills and knowledge:
 
-- **Technical Writing:** 
-- **User Experience (UX):** 
-- **UX Writing:** 
-- **Copywriting / Copy Reviewing:** 
-- **Product Management:**
-- **Product Ownership:** 
-- **Business Analysis:**
-- **Translation:** 
-- **UI Translation / Software Localization:**
+- **Technical Writing** 
+- **User Experience (UX)** 
+- **UX Writing** 
+- **Copywriting / Copy Reviewing** 
+- **Product Management**
+- **Product Ownership** 
+- **Business Analysis**
+- **Translation** 
+- **UI Translation / Software Localization**
 
 These areas of expertise have allowed me to contribute to the success of various projects, and I am eager to bring my skills to new challenges and make a positive impact.
 
-## Knowledge, Experience, Tools and Technologies I`ve work with
+## Knowledge, Experience, Tools and Technologies I've work with
 
 <style>
 .tag {
