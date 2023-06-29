@@ -74,7 +74,7 @@ description: What're ya buyin?
 
 # Postmortem Template
 
-### Summary
+## Summary
 | Incident Summary   |   |                       |   |
 |--------------------|---|-----------------------|---|
 | Incident Number    |   | Incident Severity     |   |
@@ -83,68 +83,68 @@ description: What're ya buyin?
 | Incident Mgmt Lead |   | Chaos Eng Preventable |   |
 | Postmortem Lead    |   | Recording             |   |
 
-### Postmortem Attendees
-| Name | Role | In attendence |
-|------|------|---------------|
-|      |      |               |
-|      |      |               |
-|      |      |               |
+## Postmortem Attendees
+| Name         | Role | In attendance |
+|--------------|------|---------------|
+| John Doe     |      |               |
+| Jane Smith   |      |               |
+| Alice Johnson|      |               |
 
-### Incident Timing
-| Start Time      |       | Incident Detected By(User-reported/ Ad-hoc monitoring/ Alerting system) |      |
+## Incident Timing
+| Start Time      |       | Incident Detected By (User-reported/Ad-hoc monitoring/Alerting system) |      |
 |-----------------|-------|-------------------------------------------------------------------------|------|
 | Detection Time  |       | Time to Detect (TTD)                                                    |      |
 | Mitigation Time |       | Time to Mitigate (TTM)                                                  |      |
 | Resolution Time |       | Time to Resolve (TTR)                                                   |      |
 
-### Incident Timeline
-| Date/Time | Who/What | Action/ Impact |
-|-----------|----------|----------------|
-|           |          |                |
-|           |          |                |
-|           |          |                |
+## Incident Timeline
+| Date/Time       | Who/What | Action/Impact |
+|-----------------|----------|---------------|
+| Jan 1, 9:00 AM  |          |               |
+| Jan 1, 10:30 AM |          |               |
+| Jan 1, 11:45 AM |          |               |
 
-### Impact
+## Impact
 
-#### End User Impact
+### End User Impact
 
-#### Infrastructure Impact
+### Infrastructure Impact
 
-#### Productivity Impact
+### Productivity Impact
 
-### What caused the incident?
+## What caused the incident?
 
-#### Trigger(s)
+### Trigger(s)
 
-#### Process Breakdown(s)
+### Process Breakdown(s)
 
-#### Root Cause(s)
+### Root Cause(s)
 
-### Mitigation & Resolution
+## Mitigation & Resolution
 
-### Open Questions
-| Person            | Question/ Answer |
-|-------------------|------------------|
-| Q (who): A (who): |                  |
-| Q (who): A (who): |                  |
-| Q (who): A (who): |                  |
+## Open Questions
+| Person            | Question/Answer |
+|-------------------|-----------------|
+| Q (who): A (who): |                 |
+| Q (who): A (who): |                 |
+| Q (who): A (who): |                 |
 
-### Lessons Learnt
+## Lessons Learned
 
-#### What went well
+### What went well
 
-#### What went badly
+### What went badly
 
-#### Where did we get lucky
+### Where did we get lucky
 
-### Action Items & Followups
-| Action Item | Type (Mitigate/ Prevent/ Process/ Other) | Who | Priority | Bug # | Due Date |
-|-------------|------------------------------------------|-----|----------|-------|----------|
-|             |                                          |     |          |       |          |
-|             |                                          |     |          |       |          |
-|             |                                          |     |          |       |          |
+## Action Items & Follow-ups
+| Action Item     | Type (Mitigate/Prevent/Process/Other) | Who             | Priority | Bug # | Due Date |
+|-----------------|-------------------------------------|-----------------|----------|-------|----------|
+| Fix bug in API  |                                     | John Doe        | High     | #1234 | Jan 10   |
+| Update firewall |                                     | Jane Smith      | Medium   | #5678 | Jan 15   |
+| Review procedures|                                    | Alice Johnson   | Low      | #9101 | Jan 20   |
 
-### Supporting Documents
+## Supporting Documents
 
 
 
