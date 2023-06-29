@@ -117,7 +117,7 @@ To access a server:
 
    You will see all servers listed as shown next 
    
-   ![servers](images-changingpasswords-serverslist.png)
+   ![servers](images-console-servers.png)
 
 2. Select a server and access it:<br>
 `tsh ssh doxhut@doxhut-2-xavier-0` (example)
@@ -166,7 +166,7 @@ Since you are already on the server, use the chance to set the server’s time b
 
 `uci set system.ntp.enable_server='1' ; uci commit system ; /etc/init.d/sysntpd restart`<br>
 
-> 💡 **Note**: You will not get any confirmation message for this last step.
+> 💡 **Note**: You will not get any confirmation message for the last step.
 
 <br><br>
 [Back](./)
