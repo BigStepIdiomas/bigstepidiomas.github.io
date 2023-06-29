@@ -56,7 +56,7 @@ description: Interns and newcommers wondered if it was already Christmas
 <span class="tag" style="background-color: #20c997;">English</span>
 
 
-![intro](images-changingpasswords-info.png)
+![intro](images-changingpasswords-intro.png)
 
 ## On this Page:
 
