@@ -46,7 +46,6 @@ Start browsing the collection and elevate your documentation game today!
 ### Postmortem
 
 - [Postmortem - Azure](pages-templates-postmortem-azure.md)
-- [Postmortem - Blog Notice](pages-templates-postmortem-blog-notice.md)
 - [Postmortem - Elastic](pages-templates-postmortem-elastic.md)
 - [Postmortem - Google API Infra](pages-templates-postmortem-google-api-infra.md)
 - [Postmortem - SRE Book](pages-templates-postmortem-sre-book.md)
