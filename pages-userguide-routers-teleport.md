@@ -88,8 +88,8 @@ To create a section for each store’s router password on **LastPass**:
 
 1. Access **DoxHut's LastPass Password Manager** panel.<br>
 
-2. Create a **New Item** by clicking the plus icon located at the bottom right corner. This action will open a modal where you must fill in a few fields. <br> 
-![createnew](images-changingpasswords-createnew.png)<br>
+2. Create a **New Item** by clicking the plus icon located at the bottom right corner. This action will open a modal where you must fill in a few fields. <br>
+  ![createnew](images-changingpasswords-createnew.png)<br>
 
 3. Fill in the **Name** field with the server’s name.<br>
 
@@ -104,8 +104,7 @@ To create a section for each store’s router password on **LastPass**:
 8. Save this configuration by clicking **Save**.<br>
 
 9. Repeat the whole process for each of the servers listed below.<br>
-
-![createnew2](images-changingpasswords-createnew2.png)
+  ![createnew2](images-changingpasswords-createnew2.png)
 
 ## Accessing a Server
 
@@ -114,6 +113,7 @@ To access a server:
 1. List the existing servers by running: <br>
 `tsh ls` <br>
    You will see all servers listed as shown next 
+   
    ![servers](images-changingpasswords-serverslist.png)
 
 2. Select a server and access it:<br>
