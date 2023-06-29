@@ -75,34 +75,34 @@ description: What're ya buyin?
 # Postmortem Template
 
 ## Summary
-| Incident Summary   |   |                       |   |
-|--------------------|---|-----------------------|---|
-| Incident Number    |   | Incident Severity     |   |
-| Postmortem Date    |   | War-room Required     |   |
-| SRE Lead           |   | Developer Lead        |   |
-| Incident Mgmt Lead |   | Chaos Eng Preventable |   |
-| Postmortem Lead    |   | Recording             |   |
+| Incident Summary     |             | Incident Severity       |             |
+| -------------------- | ----------- | ----------------------- | ----------- |
+| Incident Number      |             | War-room Required       |             |
+| Postmortem Date      |             | SRE Lead                |             |
+| Developer Lead       |             | Incident Mgmt Lead      |             |
+| Chaos Eng Preventable|             | Postmortem Lead         |             |
+| Recording            |             |                         |             |
 
 ## Postmortem Attendees
-| Name         | Role | In attendance |
-|--------------|------|---------------|
-| John Doe     |      |               |
-| Jane Smith   |      |               |
-| Alice Johnson|      |               |
+| Name                 | Role        | In attendance |
+| -------------------- | ----------- | ------------- |
+| John Doe             |             |               |
+| Jane Smith           |             |               |
+| Alice Johnson        |             |               |
 
 ## Incident Timing
-| Start Time      |       | Incident Detected By (User-reported/Ad-hoc monitoring/Alerting system) |      |
-|-----------------|-------|-------------------------------------------------------------------------|------|
-| Detection Time  |       | Time to Detect (TTD)                                                    |      |
-| Mitigation Time |       | Time to Mitigate (TTM)                                                  |      |
-| Resolution Time |       | Time to Resolve (TTR)                                                   |      |
+| Start Time           |             | Incident Detected By (User-reported/Ad-hoc monitoring/Alerting system) |             |
+| -------------------- | ----------- | ----------------------------------------------------------------------- | ----------- |
+| Detection Time       |             | Time to Detect (TTD)                                                  |             |
+| Mitigation Time      |             | Time to Mitigate (TTM)                                                |             |
+| Resolution Time      |             | Time to Resolve (TTR)                                                 |             |
 
 ## Incident Timeline
-| Date/Time       | Who/What | Action/Impact |
-|-----------------|----------|---------------|
-| Jan 1, 9:00 AM  |          |               |
-| Jan 1, 10:30 AM |          |               |
-| Jan 1, 11:45 AM |          |               |
+| Date/Time            | Who/What    | Action/Impact |
+| -------------------- | ------------| --------------|
+| Jan 1, 9:00 AM       |             |               |
+| Jan 1, 10:30 AM      |             |               |
+| Jan 1, 11:45 AM      |             |               |
 
 ## Impact
 
@@ -123,11 +123,11 @@ description: What're ya buyin?
 ## Mitigation & Resolution
 
 ## Open Questions
-| Person            | Question/Answer |
-|-------------------|-----------------|
-| Q (who): A (who): |                 |
-| Q (who): A (who): |                 |
-| Q (who): A (who): |                 |
+| Person               | Question/Answer |
+| -------------------- | --------------- |
+| Q (who): A (who):    |                 |
+| Q (who): A (who):    |                 |
+| Q (who): A (who):    |                 |
 
 ## Lessons Learned
 
@@ -138,11 +138,11 @@ description: What're ya buyin?
 ### Where did we get lucky
 
 ## Action Items & Follow-ups
-| Action Item     | Type (Mitigate/Prevent/Process/Other) | Who             | Priority | Bug # | Due Date |
-|-----------------|-------------------------------------|-----------------|----------|-------|----------|
-| Fix bug in API  |                                     | John Doe        | High     | #1234 | Jan 10   |
-| Update firewall |                                     | Jane Smith      | Medium   | #5678 | Jan 15   |
-| Review procedures|                                    | Alice Johnson   | Low      | #9101 | Jan 20   |
+| Action Item          | Type (Mitigate/Prevent/Process/Other) | Who             | Priority | Bug # | Due Date |
+| -------------------- | ------------------------------------- | --------------- | -------- | ----- | -------- |
+| Fix bug in API       |                                     | John Doe        | High     | #1234 | Jan 10   |
+| Update firewall      |                                     | Jane Smith      | Medium   | #5678 | Jan 15   |
+| Review procedures    |                                     | Alice Johnson   | Low      | #9101 | Jan 20   |
 
 ## Supporting Documents
 
