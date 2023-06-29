@@ -60,7 +60,7 @@ These areas of expertise have allowed me to contribute to the success of various
 - [Project Docs - Sample 01](pages-docsample01deskproject.md)
 - [Guides - Sample 01](pages-userguide-routers-teleport.md)
 - [Troubleshooting - Sample 01](pages-field-technicians-troubleshooting.md)
-- [test](https://topaz-show-278.notion.site/Tags-be23b199b84542aeba90d09b996ce2e0?pvs=4)
+- [Templates](pages-templates-templates-home.md)
 
 
 ## Contact Information
