@@ -35,7 +35,7 @@ I have developed expertise in several key areas, allowing me to contribute effec
 - **Technical Writing** 
 - **User Experience (UX)** 
 - **UX Writing** 
-- **Copywriting / Copy Reviewing** 
+- **Copywriting / Review** 
 - **Product Management**
 - **Product Ownership** 
 - **Business Analysis**
