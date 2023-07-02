@@ -4,29 +4,15 @@ title: Nagui Pinetta
 description: Crafting maps for uncharted solutions
 ---
 
+## Portfolio
+As an experienced technical writer with over six years in the field, I bring a wealth of expertise to the table. Originally from Arge3ntina and currently located in Germany, I have worked extensively in the industry, with a diverse range of technical writing samples in my portfolio. From online help systems to knowledge bases, I have created various materials throughout my career. This page offers an overview of my recent technical writing projects, showcasing samples specifically tailored for this website. Feel free to explore the links to view the samples and get a glimpse of my work.
 
 ## Career
-I've spent more than 6 years diving deep into the world of technical writing, product ownership, user experience, product design, business analysis, and squad leadership. My journey has taken me to a logistics and route optimization company, where I had the privilege of working with industry giants like **Coca-Cola**, **Pepsico**, and **Heineken**, all Top 100 Forbes companies.<br>
+Back in 2017, I started diving deep into the world of technical writing, product ownership, user experience, product design, business analysis, and squad leadership. My journey has taken me to a logistics and route optimization company, where I had the privilege of working with industry giants like **Coca-Cola**, **Pepsico**, and **Heineken**, all Top 100 Forbes companies.<br>
 
 Throughout my career, I've refined my skills and gained valuable experience that allows me to excel in these areas. Whether it's crafting user-friendly documentation, taking ownership of product development, or analyzing business processes, I bring a genuine passion and dedication to my work.<br>
 
 I believe in delivering results that make a real impact, and my track record with renowned companies speaks for itself. Let's connect and explore how my expertise can drive success for your projects.<br>
-
-## Success Cases
-As a product owner and software development team manager, I analyzed business systems and user needs, documented requirements, defined scope, and established objectives for project success, thus, ensuring that the delivery met all desired features and functionality to cover the essential use cases, coincidentally shared among our biggest clients. 
-
-Happily, after long months of shaping that diamond and surviving the abrupt changes that going full remote implied, my team was able to implement **GreenMile Manager** (the apple of my eye) in **Coca-Cola** Mexico, Brazil, Canada, and Florida, as well as **Heineken** Brazil and Switzerland, **Pepsico** Russia and other renowned titans of the supply chain logistics industry as **Linde** and **Reyes**.<br>
-
-The application is available on the **App Store** and **Play Store**. It is currently one of the (if not the most) stable applications within the **Descartes GreenMile** suite of software solutions, and by the time I left the project to join the **Descartes Product Documentation Team**, the metrics showed over ten thousand users operated the tool worldwide.
-
-## Skills
-I embarked on my IT journey in 2017 as a technical writer for a Brazilian startup called **GreenMile**. Leveraging my language teaching skills and sales management background, I took on the responsibility of creating technical and end-user documentation for their products. To understand the needs of our users and identify how our solutions could bring value to their operations, I immersed myself in studying their perspectives. <br>
-
-Initially, the challenge seemed immense as there was a high demand for product documentation. In response, I took the initiative to build a **Knowledge Base** and establish a streamlined process that continues to support our customers effectively.<br>
-
-Drawing on my ability to communicate in multiple languages and employing my soft skills, I began analyzing business and customer needs comprehensively. This, combined with my deep knowledge of our products and software solutions, led me to develop a clear product vision. As a result, I assumed the role of the product owner for **GreenMile Manager** and subsequently took on additional product ownership responsibilities for several other products within the company.<br>
-
-By continuously learning about our users, products, and market demands, I strive to bring valuable insights and drive the success of our product lineup.<br>
 
 ## Expertise:
 
@@ -101,6 +87,7 @@ These areas of expertise have allowed me to contribute to the success of various
 .tag:nth-child(40) { background-color: #6f42c1; } /* Salesforce */
 .tag:nth-child(41) { background-color: #fd7e14; } /* Speech Studio  */
 .tag:nth-child(42) { background-color: #20c997; } /* Sharepoint */
+.tag:nth-child(43) { background-color: #afeeee; } /* Wireframes */
 
 </style>
 
@@ -146,6 +133,7 @@ These areas of expertise have allowed me to contribute to the success of various
 <span class="tag" style="background-color: #6f42c1;">Salesforce</span>
 <span class="tag" style="background-color: #fd7e14;">Speech Studio</span>
 <span class="tag" style="background-color: #20c997;"> Sharepoint </span>
+<span class="tag" style="background-color: #afeeee;"> Wireframes </span>
 
 ## Samples & Templates
 
