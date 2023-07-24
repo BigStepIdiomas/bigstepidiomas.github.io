@@ -5,7 +5,7 @@ description: Crafting maps for uncharted solutions
 ---
 
 ## Portfolio
-As an experienced technical writer with over six years in the field, I bring a wealth of expertise to the table. Originally from Arge ntina and currently located in Germany, I have worked extensively in the industry, with a diverse range of technical writing samples in my portfolio. From online help systems to knowledge bases, I have created various materials throughout my career. This page offers an overview of my recent technical writing projects, showcasing samples specifically tailored for this website. Feel free to explore the links to view the samples and get a glimpse of my work.
+As an experienced technical writer with over six years in the field, I bring a wealth of expertise to the table. Originally from Argentina and currently located in Germany, I have worked extensively in the industry, with a diverse range of technical writing samples in my portfolio. From online help systems to knowledge bases, I have created various materials throughout my career. This page offers an overview of my recent technical writing projects, showcasing samples specifically tailored for this website. Feel free to explore the links to view the samples and get a glimpse of my work.
 
 ## Career
 Back in 2017, I started diving deep into the world of technical writing, product ownership, user experience, product design, business analysis, and squad leadership. My journey has taken me to a logistics and route optimization company, where I had the privilege of working with industry giants like **Coca-Cola**, **Pepsico**, and **Heineken**, all Top 100 Forbes companies.<br>
