@@ -70,6 +70,7 @@ This section is explicitly meant for cleanly organized solutions to common DevOp
 The goal is to both save the SRE's time as well as unblock coders faster.
 
 > 💡 If any solution is outdated, please reach out/start a thread on our Slack channel (#sre-faqs) and ping our technical writer @Jonathan Pinetta requesting an update.
+<br>
 
 ### On this Page
 
@@ -95,6 +96,7 @@ sudo adduser <user> && sudo usermod -aG docker <user>
 ```
 <br>
 > Please note that the one-liner doesn't give explicit sudo permissions to the user. The user will have to enter their password when using sudo for administrative tasks. If you wish to give the user passwordless sudo access, you should modify the sudoers file accordingly. Keep in mind that granting passwordless sudo access should be done with caution and only for trusted users.
+<br>
 
 
 ### Generate an SSH key:
@@ -139,6 +141,7 @@ userdel --root [path/to/other/root] [name]
 ```
 
 > 💡 Remember to replace [name], [group], and [path/to/other/root] with the actual username, group name, and path to the other root directory, respectively. Always exercise caution when using this command as it can result in the irreversible deletion of user data.
+<br>
 
 ### CVD upload script:
 A very big change in the CVD upload script: code has been refactored to support camera coordinates for specific cam ids an example config in the upload script looks as below:
@@ -180,6 +183,7 @@ root@dev-office-inference-0:/home/agot# k3scli.sh -h
 Old processes running in the background may cause slowdowns. In order to terminate them, you will need to find them first. 
 
 Use the following commands to help you straightforwardly identify the ones that are causing you trouble and then proceed to responsibly kill them.
+<br>
 
 **PS** gets Information about running processes.
 
@@ -227,11 +231,14 @@ ps --sort size
 ```
 
 > 🧷 More information [here](https://manned.org/ps).
+<br>
    
 **kill** sends a signal to a process, usually related to stopping the process. <br>
 Then, once you found the process you want to kill, use the command that suits best your scenario:
+<br>
 
 > 💡 All signals except for SIGKILL and SIGSTOP can be intercepted by the process to perform a clean exit. 
+<br>
 
 - Terminate a program using the default SIGTERM (terminate) signal:
 
@@ -282,9 +289,11 @@ kill -17|STOP process_id
 kill -SIGUSR1 -group_id
 ```
 
-> 🧷 More information [here](kill - manned.org). <br>
+> 🧷 More information [here](kill - manned.org). 
+<br>
 
 > ⚠️ All these commands are very sensitive and can lead to a lot of issue. So, please, be aware that killing a process might affect someone else’s works.
+<br>
 
 
 ### How to create S3 buckets
@@ -336,7 +345,7 @@ ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIMOmhXTjtS4Tehalzfyn6KwPU0CwYpCSRuv2+P/bZrrc
 
 ## Useful External Documentation
 ### kubclt Reference Docs
-Access [kubectl official documentation](https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands).
+Access [kubectl official documentation](https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands).<br>
 All the verbs in the left pane are very close to all the actions we want to run inside a Kubernetes cluster so if you are wondering how to do something inside Kubernetes, you may find the correct command by searching for the closest verb related to that action.
 
 
