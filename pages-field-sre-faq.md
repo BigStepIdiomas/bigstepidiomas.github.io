@@ -112,7 +112,7 @@ ssh-keygen -t ed25519 -C "<name>@agdoxhut.ai"
 **Userdel**<br>
 <userdel> is a command used to remove a user account or remove a user from a group in Linux systems. Note that all commands must be executed as root.
 
-More information about `userdel` can be found in the [manual page](https://manned.org/userdel).
+More information about <userdel> can be found in the [manual page](https://manned.org/userdel).
 
 To remove a user:
 - Remove a user:
