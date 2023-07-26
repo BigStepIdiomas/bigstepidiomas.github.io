@@ -230,9 +230,9 @@ ps -o ppid= -p pid
 ps --sort size
 ```
 
-> 🧷 More information [here](https://manned.org/ps).
+> 🧷 More information [here](https://manned.org/ps).<br>
 <br>
-   
+  
 **kill** sends a signal to a process, usually related to stopping the process. <br>
 Then, once you found the process you want to kill, use the command that suits best your scenario:
 <br>
