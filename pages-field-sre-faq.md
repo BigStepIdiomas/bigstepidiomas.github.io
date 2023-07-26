@@ -68,7 +68,6 @@ As soon as I learned what they did and how they did it, I noticed most of the in
 
 This section is explicitly meant for cleanly organized solutions to common DevOps SREs requests like creating a user on a machine, setting up a new user, etc...
 The goal is to both save the SRE's time as well as unblock coders faster.
-If a solution is outdated, please communicate/start a thread on our channel: #sre-faqs and ping our technical writer @Jonathan Pinetta (Unlicensed) requesting an update.
 
 > 💡 If any solution is outdated, please reach out/start a thread on our Slack channel (#sre-faqs) and ping our technical writer @Jonathan Pinetta requesting an update.
 
@@ -81,19 +80,20 @@ If a solution is outdated, please communicate/start a thread on our channel: #sr
 
 ## How To
 ### Set up a new user on a machine:
-To set up a new user with sudo and Docker access, follow the commands below. Replace <user> with your desired username.
+1. To set up a new user with sudo and Docker access, follow the commands below. Replace <user> with your desired username.
 ```bash
 sudo adduser <user>              # Create the new user
 sudo usermod -aG sudo <user>     # Add the user to the 'sudo' group for administrative privileges
 sudo gpasswd -a <user> docker    # Add the user to the 'docker' group for Docker access
 
 ```
-This one-liner achieves the same result:
+2. This one-liner achieves the same result:
+
 ```bash
 sudo adduser <user> && sudo usermod -aG docker <user>
 ```
-However, please note that the one-liner doesn't give explicit sudo permissions to the user. The user will have to enter their password when using sudo for administrative tasks. If you wish to give the user passwordless sudo access, you should modify the sudoers file accordingly. Keep in mind that granting passwordless sudo access should be done with caution and only for trusted users.
 
+> Please note that the one-liner doesn't give explicit sudo permissions to the user. The user will have to enter their password when using sudo for administrative tasks. If you wish to give the user passwordless sudo access, you should modify the sudoers file accordingly. Keep in mind that granting passwordless sudo access should be done with caution and only for trusted users.
 
 
 ### Generate an SSH key:
@@ -102,10 +102,12 @@ To generate an SSH key for secure communication, you can use the ssh-keygen comm
 ```bash
 ssh-keygen -t ed25519 -C "<name>@agot.ai"
 ```
+
 Replace <name> with your desired identifier, email, or any other information you wish to associate with the key. This command will create an Ed25519 SSH key pair, consisting of a private key (id_ed25519) and a public key (id_ed25519.pub). The public key can be shared with remote servers or services you want to authenticate with. Ensure you keep the private key secure and do not share it with others.
 
 
 ### TLDR command to delete a user:
+
 **Userdel**
 `userdel` is a command used to remove a user account or remove a user from a group in Linux systems. Note that all commands must be executed as root.
 
@@ -113,28 +115,35 @@ More information about `userdel` can be found in the [manual page](https://manne
 
 To remove a user:
 1. Remove a user:
+
 ```bash
 userdel [name]
 ```
+
 2. Remove a user along with their home directory and mail spool:
+
 ```bash
 userdel --remove [name]
 ```
+
 3. Remove a user from a group:
+
 ```bash
 userdel [name] [group]
 ```
+
 4. Remove a user in another root directory:
+
 ```bash
 userdel --root [path/to/other/root] [name]
 ```
+
 > 💡 Remember to replace [name], [group], and [path/to/other/root] with the actual username, group name, and path to the other root directory, respectively. Always exercise caution when using this command as it can result in the irreversible deletion of user data.
 
 ### CVD upload script:
-A very big change in the CVD upload script:
-code is refactored to support camera coordinates for specific cam ids
-an example config in the upload script looks as below:
-```css
+A very big change in the CVD upload script: code has been refactored to support camera coordinates for specific cam ids an example config in the upload script looks as below:
+
+```html
 cam-config:
   fps: 25
   base-dimension:
@@ -151,7 +160,9 @@ cam-config:
 
 ### Reinstall k3s, set up Rabbit, and GPU splitting on it:
 1. Use the following script to reinstall k3s and set up Rabbit and GPU splitting on it. It should be available in all the inference boxes as the command **k3scli.sh**.
+
 2. With k3scli.sh -h you can see the different options to run it:
+
 ```bash
 root@dev-office-inference-0:/home/agot# k3scli.sh -h
     Usage: k3scli.sh args ...
@@ -163,6 +174,7 @@ root@dev-office-inference-0:/home/agot# k3scli.sh -h
         -g Setup GPU sharing
         -a Install AWS CLI
 ```
+
 3. To reinstall everything, just run **k3scli.sh -k -g -r** . Such action will reinstall k3s, install GPU splitting and deploy rabbit on it.
 
 ### Kill a running process
@@ -171,22 +183,28 @@ Old processes running in the background may cause slowdowns. In order to termina
 Use the following commands to help you straightforwardly identify the ones that are causing you trouble and then proceed to responsibly kill them.
 
 **PS**
-- gets Information about running processes.
+`ps` gets Information about running processes.
 
 To list information on running processes:
 1. List all running processes:     
+
 ```bash
 ps aux
 ```
-2. List all running processes including the full command string:      
+2. List all running processes including the full command string:   
+
 ```bash
 ps auxww
 ```
+
 3. Search for a process that matches a string:
+
 ```bash
 ps aux | grep string
 ```
-4. List all processes of the current user in extra full format:    
+
+4. List all processes of the current user in extra full format:   
+
 ```bash
 ps --user $(id -u) -F
 ```
@@ -195,11 +213,15 @@ ps --user $(id -u) -F
 ```bash
 ps --user $(id -u) f
 ```
+
 6. Get the parent PID of a process:     
+
 ```bash
 ps -o ppid= -p pid
 ```
+
 7. Sort processes by memory consumption:     
+
 ```bash
 ps --sort size
 ```
@@ -207,41 +229,56 @@ ps --sort size
 > 🧷 More information [here](https://manned.org/ps).
    
 **kill**
-- Sends a signal to a process, usually related to stopping the process.
+`kill` sends a signal to a process, usually related to stopping the process.
 
 Then, once you found the process you want to kill, use the command that suits best your scenario:
 
 > 💡 All signals except for SIGKILL and SIGSTOP can be intercepted by the process to perform a clean exit. 
 
 1. Terminate a program using the default SIGTERM (terminate) signal:
+
 ```bash
 kill process_id
 ```
+
 2. List available signal names (to be used without the SIG prefix):
+
 ```bash
 kill -l
 ```
+
 3. Terminate a background job:
+
 ```bash
 kill %job_id
 ```
+
 4. Terminate a program using SIGHUP (hang up) signal. Many daemons will reload instead of terminating:
+
 ```bash
 kill -1|HUP process_id
 ```
+
 5. Terminate a program using the SIGINT (interrupt) signal. This is typically initiated by the user pressing CTRL + C:
+
 ```bash
 kill -2|INT process_id
 ```
+
 6. Signal the operating system to immediately terminate a program (which gets no chance to capture the signal):
+
 ```bash
 kill -9|KILL process_id
+
 ```
 7. Signal the operating system to pause a program until a SIGCONT (“continue”) signal is received:
+
 ```bash
 kill -17|STOP process_id
+
 ```
 8. Send a SIGUSR1 signal to all processes with the given GID (group ID): 
+
 ```bash
 kill -SIGUSR1 -group_id
 ```
@@ -260,36 +297,41 @@ Follow the guidelines included in this [repo](https://git.agot.ai/users/sign_in)
 This command creates a new user with the username "awx" and sets the user's shell to /bin/bash. The user will be added to the "sudo" group, granting administrative privileges.
 
 1. Create a new user for automations.
+
 ```bash
 useradd -c "User for automations" -G "sudo" -s /bin/bash -m awx
 ```
+
 2. Set up SSH for the new user.
+
 ```bash
 mkdir -p /home/awx/.ssh && chmod 0700 /home/awx/.ssh && touch /home/awx/.ssh/authorized_keys && chown -R awx. /home/awx/.ssh && chmod 0600 /home/awx/.ssh/authorized_keys
 ```
+
 3. Edit the sudoers file.
+
 ```bash
 sudo visudo
 ```
 4. Add the following configurations to the sudoers file.
+
 ```bash
 Defaults    env_reset
 Defaults    mail_badpass
 Defaults    secure_path="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin"
-
 root    ALL=(ALL:ALL) ALL
-
 %admin  ALL=(ALL) ALL
-
 %sudo   ALL=(ALL:ALL) NOPASSWD: ALL
-
-# See sudoers(5) for more information on "#include" directives:
-#includedir /etc/sudoers.d
+See sudoers(5) for more information on "#include" directives:
+includedir /etc/sudoers.d
 ```
-5.  Add the SSH public key to the authorized_keys file for the new user.
+
+5. Add the SSH public key to the authorized_keys file for the new user.
+
 ```bash
 ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIMOmhXTjtS4Tehalzfyn6KwPU0CwYpCSRuv2+P/bZrrc user for automation
 ```
+
 You can copy and paste each step into your Markdown file or text editor. The code snippets are formatted as code blocks for better visibility and clarity.
 
 ## Useful External Documentation
