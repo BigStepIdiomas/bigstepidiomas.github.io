@@ -80,7 +80,7 @@ The goal is to both save the SRE's time as well as unblock coders faster.
 
 ## How To
 ### Set up a new user on a machine:
-1. To set up a new user with sudo and Docker access, follow the commands below. Replace <user> with your desired username.
+- To set up a new user with sudo and Docker access, follow the commands below. Replace <user> with your desired username.
 
 ```bash
 sudo adduser <user>              # Create the new user
@@ -88,7 +88,7 @@ sudo usermod -aG sudo <user>     # Add the user to the 'sudo' group for administ
 sudo gpasswd -a <user> docker    # Add the user to the 'docker' group for Docker access
 ```
 
-2. This one-liner achieves the same result:
+- This one-liner achieves the same result:
 
 ```bash
 sudo adduser <user> && sudo usermod -aG docker <user>
@@ -98,40 +98,42 @@ sudo adduser <user> && sudo usermod -aG docker <user>
 
 
 ### Generate an SSH key:
-1. To generate an <SSH> key for secure communication, you can use the `ssh-keygen` command. It is recommended to use the `Ed25519` key type for improved security.
+- To generate an <SSH> key for secure communication, you can use the `ssh-keygen` command. It is recommended to use the `Ed25519` key type for improved security.
 
 ```bash
 ssh-keygen -t ed25519 -C "<name>@agdoxhut.ai"
 ```
-2. Replace <name> with your desired identifier, email, or any other information you wish to associate with the key. This command will create an `Ed25519` SSH key pair, consisting of a private key (id_ed25519) and a public key (id_ed25519.pub). The public key can be shared with remote servers or services you want to authenticate with. Ensure you keep the private key secure and do not share it with others.
+
+- Replace <name> with your desired identifier, email, or any other information you wish to associate with the key. This command will create an `Ed25519` SSH key pair, consisting of a private key (id_ed25519) and a public key (id_ed25519.pub). The public key can be shared with remote servers or services you want to authenticate with. Ensure you keep the private key secure and do not share it with others.
 
 
 ### TLDR command to delete a user:
 
 **Userdel**<br>
-`userdel` is a command used to remove a user account or remove a user from a group in Linux systems. Note that all commands must be executed as root.
+<userdel> is a command used to remove a user account or remove a user from a group in Linux systems. Note that all commands must be executed as root.
 
 More information about `userdel` can be found in the [manual page](https://manned.org/userdel).
 
 To remove a user:
-1. Remove a user:
+- Remove a user:
 
 ```bash
 userdel [name]
 ```
-2. Remove a user along with their home directory and mail spool:
+
+- Remove a user along with their home directory and mail spool:
 
 ```bash
 userdel --remove [name]
 ```
 
-3. Remove a user from a group:
+- Remove a user from a group:
 
 ```bash
 userdel [name] [group]
 ```
 
-4. Remove a user in another root directory:
+- Remove a user in another root directory:
 
 ```bash
 userdel --root [path/to/other/root] [name]
@@ -181,7 +183,7 @@ Old processes running in the background may cause slowdowns. In order to termina
 Use the following commands to help you straightforwardly identify the ones that are causing you trouble and then proceed to responsibly kill them.
 
 **PS**<br>
-`ps` gets Information about running processes.
+<ps> gets Information about running processes.
 
 To list information on running processes:
 - List all running processes:     
@@ -228,8 +230,8 @@ ps --sort size
 
 > 🧷 More information [here](https://manned.org/ps).
    
-**kill**
-`kill` sends a signal to a process, usually related to stopping the process. <br>
+**kill**<br>
+<kill> sends a signal to a process, usually related to stopping the process. <br>
 Then, once you found the process you want to kill, use the command that suits best your scenario:
 
 > 💡 All signals except for SIGKILL and SIGSTOP can be intercepted by the process to perform a clean exit. 
