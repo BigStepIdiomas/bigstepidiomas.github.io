@@ -98,13 +98,12 @@ sudo adduser <user> && sudo usermod -aG docker <user>
 
 
 ### Generate an SSH key:
-To generate an <SSH> key for secure communication, you can use the `ssh-keygen` command. It is recommended to use the `Ed25519` key type for improved security.
+1. To generate an <SSH> key for secure communication, you can use the `ssh-keygen` command. It is recommended to use the `Ed25519` key type for improved security.
 
 ```bash
 ssh-keygen -t ed25519 -C "<name>@agot.ai"
 ```
-
-Replace <name> with your desired identifier, email, or any other information you wish to associate with the key. This command will create an Ed25519 SSH key pair, consisting of a private key (id_ed25519) and a public key (id_ed25519.pub). The public key can be shared with remote servers or services you want to authenticate with. Ensure you keep the private key secure and do not share it with others.
+2. Replace <name> with your desired identifier, email, or any other information you wish to associate with the key. This command will create an `Ed25519` SSH key pair, consisting of a private key (id_ed25519) and a public key (id_ed25519.pub). The public key can be shared with remote servers or services you want to authenticate with. Ensure you keep the private key secure and do not share it with others.
 
 
 ### TLDR command to delete a user:
