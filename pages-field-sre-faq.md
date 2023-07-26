@@ -177,6 +177,7 @@ root@dev-office-inference-0:/home/agot# k3scli.sh -h
         -g Setup GPU sharing
         -a Install AWS CLI
 ```
+
 - To reinstall everything, just run **k3scli.sh -k -g -r** . Such action will reinstall k3s, install GPU splitting and deploy rabbit on it.
 
 ### Kill a running process
@@ -274,14 +275,12 @@ kill -2|INT process_id
 
 ```bash
 kill -9|KILL process_id
-
 ```
 
 - Signal the operating system to pause a program until a SIGCONT (“continue”) signal is received:
 
 ```bash
 kill -17|STOP process_id
-
 ```
 
 - Send a SIGUSR1 signal to all processes with the given GID (group ID): 
@@ -291,9 +290,11 @@ kill -SIGUSR1 -group_id
 ```
 
 > 🧷 More information [here](kill - manned.org). 
+
 <br>
 
 > ⚠️ All these commands are very sensitive and can lead to a lot of issue. So, please, be aware that killing a process might affect someone else’s works.
+
 <br>
 
 
