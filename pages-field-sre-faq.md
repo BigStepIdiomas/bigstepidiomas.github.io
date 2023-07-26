@@ -109,8 +109,7 @@ ssh-keygen -t ed25519 -C "<name>@agdoxhut.ai"
 
 ### TLDR command to delete a user:
 
-**Userdel**<br>
-<userdel> is a command used to remove a user account or remove a user from a group in Linux systems. Note that all commands must be executed as root.
+**Userdel** is a command used to remove a user account or remove a user from a group in Linux systems. Note that all commands must be executed as root.
 
 More information about <userdel> can be found in the [manual page](https://manned.org/userdel).
 
@@ -182,8 +181,7 @@ Old processes running in the background may cause slowdowns. In order to termina
 
 Use the following commands to help you straightforwardly identify the ones that are causing you trouble and then proceed to responsibly kill them.
 
-**PS**<br>
-<ps> gets Information about running processes.
+**PS** gets Information about running processes.
 
 To list information on running processes:
 - List all running processes:     
@@ -230,8 +228,7 @@ ps --sort size
 
 > 🧷 More information [here](https://manned.org/ps).
    
-**kill**<br>
-<kill> sends a signal to a process, usually related to stopping the process. <br>
+**kill** sends a signal to a process, usually related to stopping the process. <br>
 Then, once you found the process you want to kill, use the command that suits best your scenario:
 
 > 💡 All signals except for SIGKILL and SIGSTOP can be intercepted by the process to perform a clean exit. 
