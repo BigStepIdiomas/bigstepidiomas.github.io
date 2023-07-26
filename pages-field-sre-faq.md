@@ -158,9 +158,9 @@ cam-config:
 ```
 
 ### Reinstall k3s, set up Rabbit, and GPU splitting on it:
-1. Use the following script to reinstall k3s and set up Rabbit and GPU splitting on it. It should be available in all the inference boxes as the command **k3scli.sh**.
+- Use the following script to reinstall k3s and set up Rabbit and GPU splitting on it. It should be available in all the inference boxes as the command **k3scli.sh**.
 
-2. With k3scli.sh -h you can see the different options to run it:
+- With k3scli.sh -h you can see the different options to run it:
 
 ```bash
 root@dev-office-inference-0:/home/agot# k3scli.sh -h
@@ -173,52 +173,54 @@ root@dev-office-inference-0:/home/agot# k3scli.sh -h
         -g Setup GPU sharing
         -a Install AWS CLI
 ```
-3. To reinstall everything, just run **k3scli.sh -k -g -r** . Such action will reinstall k3s, install GPU splitting and deploy rabbit on it.
+- To reinstall everything, just run **k3scli.sh -k -g -r** . Such action will reinstall k3s, install GPU splitting and deploy rabbit on it.
 
 ### Kill a running process
 Old processes running in the background may cause slowdowns. In order to terminate them, you will need to find them first. 
 
 Use the following commands to help you straightforwardly identify the ones that are causing you trouble and then proceed to responsibly kill them.
 
-**PS**
+**PS**<br>
 `ps` gets Information about running processes.
 
 To list information on running processes:
-1. List all running processes:     
+- List all running processes:     
 
 ```bash
 ps aux
 ```
-2. List all running processes including the full command string:   
+
+- List all running processes including the full command string:   
 
 ```bash
 ps auxww
 ```
 
-3. Search for a process that matches a string:
+- Search for a process that matches a string:
 
 ```bash
 ps aux | grep string
 ```
 
-4. List all processes of the current user in extra full format:   
+- List all processes of the current user in extra full format:   
 
 ```bash
 ps --user $(id -u) -F
 ```
-5. List all processes of the current user as a tree:
+
+- List all processes of the current user as a tree:
 
 ```bash
 ps --user $(id -u) f
 ```
 
-6. Get the parent PID of a process:     
+- Get the parent PID of a process:     
 
 ```bash
 ps -o ppid= -p pid
 ```
 
-7. Sort processes by memory consumption:     
+- Sort processes by memory consumption:     
 
 ```bash
 ps --sort size
@@ -227,61 +229,61 @@ ps --sort size
 > 🧷 More information [here](https://manned.org/ps).
    
 **kill**
-`kill` sends a signal to a process, usually related to stopping the process.
-
+`kill` sends a signal to a process, usually related to stopping the process. <br>
 Then, once you found the process you want to kill, use the command that suits best your scenario:
 
 > 💡 All signals except for SIGKILL and SIGSTOP can be intercepted by the process to perform a clean exit. 
 
-1. Terminate a program using the default SIGTERM (terminate) signal:
+- Terminate a program using the default SIGTERM (terminate) signal:
 
 ```bash
 kill process_id
 ```
-
-2. List available signal names (to be used without the SIG prefix):
+- List available signal names (to be used without the SIG prefix):
 
 ```bash
 kill -l
 ```
 
-3. Terminate a background job:
+- Terminate a background job:
 
 ```bash
 kill %job_id
 ```
 
-4. Terminate a program using SIGHUP (hang up) signal. Many daemons will reload instead of terminating:
+- Terminate a program using SIGHUP (hang up) signal. Many daemons will reload instead of terminating:
 
 ```bash
 kill -1|HUP process_id
 ```
 
-5. Terminate a program using the SIGINT (interrupt) signal. This is typically initiated by the user pressing CTRL + C:
+- Terminate a program using the SIGINT (interrupt) signal. This is typically initiated by the user pressing CTRL + C:
 
 ```bash
 kill -2|INT process_id
 ```
 
-6. Signal the operating system to immediately terminate a program (which gets no chance to capture the signal):
+- Signal the operating system to immediately terminate a program (which gets no chance to capture the signal):
 
 ```bash
 kill -9|KILL process_id
 
 ```
-7. Signal the operating system to pause a program until a SIGCONT (“continue”) signal is received:
+
+- Signal the operating system to pause a program until a SIGCONT (“continue”) signal is received:
 
 ```bash
 kill -17|STOP process_id
 
 ```
-8. Send a SIGUSR1 signal to all processes with the given GID (group ID): 
+
+- Send a SIGUSR1 signal to all processes with the given GID (group ID): 
 
 ```bash
 kill -SIGUSR1 -group_id
 ```
 
-> 🧷 More information [here](kill - manned.org).
+> 🧷 More information [here](kill - manned.org). <br>
 
 > ⚠️ All these commands are very sensitive and can lead to a lot of issue. So, please, be aware that killing a process might affect someone else’s works.
 
@@ -294,24 +296,25 @@ Follow the guidelines included in this [repo](https://git.agot.ai/users/sign_in)
 
 This command creates a new user with the username "awx" and sets the user's shell to /bin/bash. The user will be added to the "sudo" group, granting administrative privileges.
 
-1. Create a new user for automations.
+- Create a new user for automations.
 
 ```bash
 useradd -c "User for automations" -G "sudo" -s /bin/bash -m awx
 ```
 
-2. Set up SSH for the new user.
+- Set up SSH for the new user.
 
 ```bash
 mkdir -p /home/awx/.ssh && chmod 0700 /home/awx/.ssh && touch /home/awx/.ssh/authorized_keys && chown -R awx. /home/awx/.ssh && chmod 0600 /home/awx/.ssh/authorized_keys
 ```
 
-3. Edit the sudoers file.
+- Edit the sudoers file.
 
 ```bash
 sudo visudo
 ```
-4. Add the following configurations to the sudoers file.
+
+- Add the following configurations to the sudoers file.
 
 ```bash
 Defaults    env_reset
@@ -324,13 +327,13 @@ See sudoers(5) for more information on "#include" directives:
 includedir /etc/sudoers.d
 ```
 
-5. Add the SSH public key to the authorized_keys file for the new user.
+- Add the SSH public key to the authorized_keys file for the new user.
 
 ```bash
 ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIMOmhXTjtS4Tehalzfyn6KwPU0CwYpCSRuv2+P/bZrrc user for automation
 ```
 
-You can copy and paste each step into your Markdown file or text editor. The code snippets are formatted as code blocks for better visibility and clarity.
+- You can copy and paste each step into your Markdown file or text editor. The code snippets are formatted as code blocks for better visibility and clarity.
 
 ## Useful External Documentation
 ### kubclt Reference Docs
