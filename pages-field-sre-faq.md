@@ -93,7 +93,7 @@ sudo gpasswd -a <user> docker    # Add the user to the 'docker' group for Docker
 ```bash
 sudo adduser <user> && sudo usermod -aG docker <user>
 ```
-
+<br>
 > Please note that the one-liner doesn't give explicit sudo permissions to the user. The user will have to enter their password when using sudo for administrative tasks. If you wish to give the user passwordless sudo access, you should modify the sudoers file accordingly. Keep in mind that granting passwordless sudo access should be done with caution and only for trusted users.
 
 
@@ -101,14 +101,14 @@ sudo adduser <user> && sudo usermod -aG docker <user>
 1. To generate an <SSH> key for secure communication, you can use the `ssh-keygen` command. It is recommended to use the `Ed25519` key type for improved security.
 
 ```bash
-ssh-keygen -t ed25519 -C "<name>@agot.ai"
+ssh-keygen -t ed25519 -C "<name>@agdoxhut.ai"
 ```
 2. Replace <name> with your desired identifier, email, or any other information you wish to associate with the key. This command will create an `Ed25519` SSH key pair, consisting of a private key (id_ed25519) and a public key (id_ed25519.pub). The public key can be shared with remote servers or services you want to authenticate with. Ensure you keep the private key secure and do not share it with others.
 
 
 ### TLDR command to delete a user:
 
-**Userdel**
+**Userdel**<br>
 `userdel` is a command used to remove a user account or remove a user from a group in Linux systems. Note that all commands must be executed as root.
 
 More information about `userdel` can be found in the [manual page](https://manned.org/userdel).
