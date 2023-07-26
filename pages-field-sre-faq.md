@@ -100,13 +100,13 @@ sudo adduser <user> && sudo usermod -aG docker <user>
 
 
 ### Generate an SSH key:
-- To generate an <SSH> key for secure communication, you can use the `ssh-keygen` command. It is recommended to use the `Ed25519` key type for improved security.
+- To generate an <SSH> key for secure communication, you can use the `ssh-keygen` command. It is recommended to use the `Ed23519` key type for improved security.
 
 ```bash
 ssh-keygen -t ed25519 -C "<name>@doxhut.xyz"
 ```
 
-- Replace <name> with your desired identifier, email, or any other information you wish to associate with the key. This command will create an `Ed25519` SSH key pair, consisting of a private key (id_ed25519) and a public key (id_ed25519.pub). The public key can be shared with remote servers or services you want to authenticate with. Ensure you keep the private key secure and do not share it with others.
+- Replace <name> with your desired identifier, email, or any other information you wish to associate with the key. This command will create an `Ed23519` SSH key pair, consisting of a private key (id_ed23519) and a public key (id_ed23519.pub). The public key can be shared with remote servers or services you want to authenticate with. Ensure you keep the private key secure and do not share it with others.
 
 
 ### TLDR command to delete a user:
@@ -164,7 +164,7 @@ cam-config:
 ### Reinstall k3s, set up Rabbit, and GPU splitting on it:
 - Use the following script to reinstall k3s and set up Rabbit and GPU splitting on it. It should be available in all the inference boxes as the command **k3scli.sh**.
 
-- With k3scli.sh -h you can see the different options to run it:
+- With **k3scli.sh -h** you can see the different options to run it:
 
 ```bash
 root@dev-office-inference-0:/home/agot# k3scli.sh -h
