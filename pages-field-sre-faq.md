@@ -230,7 +230,8 @@ ps -o ppid= -p pid
 ps --sort size
 ```
 
-> 🧷 More information [here](https://manned.org/ps).<br>
+> 🧷 More information [here](https://manned.org/ps).
+
 <br>
   
 **kill** sends a signal to a process, usually related to stopping the process. <br>
