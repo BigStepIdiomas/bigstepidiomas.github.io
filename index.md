@@ -142,6 +142,7 @@ These areas of expertise have allowed me to contribute to the success of various
 - [Project Docs - Sample 01](pages-docsample01deskproject.md)
 - [Guides - Sample 01](pages-userguide-routers-teleport.md)
 - [Troubleshooting - Sample 01](pages-field-technicians-troubleshooting.md)
+- [SRE FAQ - Sample 01](pages-field-sre-faq.md)
 - [Templates](pages-templates-templates-home.md)
 
 
