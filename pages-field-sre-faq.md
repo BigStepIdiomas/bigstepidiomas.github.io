@@ -81,12 +81,13 @@ The goal is to both save the SRE's time as well as unblock coders faster.
 ## How To
 ### Set up a new user on a machine:
 1. To set up a new user with sudo and Docker access, follow the commands below. Replace <user> with your desired username.
+
 ```bash
 sudo adduser <user>              # Create the new user
 sudo usermod -aG sudo <user>     # Add the user to the 'sudo' group for administrative privileges
 sudo gpasswd -a <user> docker    # Add the user to the 'docker' group for Docker access
-
 ```
+
 2. This one-liner achieves the same result:
 
 ```bash
@@ -97,7 +98,7 @@ sudo adduser <user> && sudo usermod -aG docker <user>
 
 
 ### Generate an SSH key:
-To generate an SSH key for secure communication, you can use the ssh-keygen command. It is recommended to use the Ed25519 key type for improved security.
+To generate an <SSH> key for secure communication, you can use the `ssh-keygen` command. It is recommended to use the `Ed25519` key type for improved security.
 
 ```bash
 ssh-keygen -t ed25519 -C "<name>@agot.ai"
@@ -119,7 +120,6 @@ To remove a user:
 ```bash
 userdel [name]
 ```
-
 2. Remove a user along with their home directory and mail spool:
 
 ```bash
