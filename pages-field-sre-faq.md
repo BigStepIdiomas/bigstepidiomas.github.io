@@ -134,7 +134,7 @@ userdel --root [path/to/other/root] [name]
 A very big change in the CVD upload script:
 code is refactored to support camera coordinates for specific cam ids
 an example config in the upload script looks as below:
-'''bash
+```css
 cam-config:
   fps: 25
   base-dimension:
@@ -147,7 +147,7 @@ cam-config:
     9:
     - 1280
     - 0
-'''
+```
 
 ### Reinstall k3s, set up Rabbit, and GPU splitting on it:
 1. Use the following script to reinstall k3s and set up Rabbit and GPU splitting on it. It should be available in all the inference boxes as the command **k3scli.sh**.
