@@ -56,7 +56,7 @@ description: The great and powerful Oracle, we meet at last--- said Agent Smith
 
 At the company, let's call it "DoxHut," they were running **PoCs** (Proof of Concepts) directly on production. The software solution was implemented on devices already established within the customer's facilities. Although it was code injected into an application, it required various hardware installations and frequent maintenance.
 
-However, they faced a challenge when it came to handling incidents. The senior **SREs** (Site Reliability Engineers) had a lot on their plates, leading them to onboard new team members, mainly juniors. The newcomers needed proper guidance on their day-to-day tasks, which sometimes meant the more experienced colleagues had to pause their work to assist them with "basic stuff."
+However, they faced a challenge when it came to handling incidents. The senior **SREs** (Site Reliability Engineers) had a lot on their plates, leading them to onboard new team members, mainly juniors. The newcomers needed proper guidance on their day-to-day tasks, which sometimes meant the more experienced colleagues had to pause their work to assist them with "**basic stuff**."
 
 When I took on the **tech writer** position, I had the opportunity to get to know each team better. During interviews, I asked them about their pain points. It turned out that they had always wanted to create an **FAQ** for newcomers, but they never had the chance to do so. Gathering testimonies and data, I created a page in our knowledge base with frequently asked questions. After reviewing and publishing it, I shared the page with the team. This sparked discussions, leading to additional items to include, which I promptly addressed in the periodic updates I had planned for this documentation piece.
 
@@ -67,7 +67,7 @@ When I took on the **tech writer** position, I had the opportunity to get to kno
 
 Welcome to the neatly organized section for common **DevOps SREs** requests! Here, you'll find solutions to tasks like creating a user on a machine or setting up a new user, all aimed at saving valuable time for our SREs and unblocking coders more swiftly.
 
-> 💡 We're all about staying up-to-date! If you come across any outdated solutions, don't hesitate to reach out and start a discussion on our **Slack** channel (#sre-faqs). Feel free to ping our technical writer, **@NaguiPinetta**, to request an update. We're committed to providing the latest and greatest solutions for you!
+> 💡 We're all about staying up-to-date! If you come across any outdated solutions, don't hesitate to reach out and start a discussion on our **Slack channel** (**#sre-faqs**). Feel free to ping our technical writer, **@NaguiPinetta**, to request an update. We're committed to providing the latest and greatest solutions for you!
 <br>
 
 ### On this Page
