@@ -239,14 +239,13 @@ ps --sort size
 ```
 
 > 🧷  More information about the ps command can be found [here](https://manned.org/ps).
-
 <br>
   
 #### Kill Command - Terminate a Process:
 The <kill> command sends a signal to a process, usually to stop it. Choose the appropriate command based on your scenario:
 <br>
 
-> 💡 All signals except for SIGKILL and SIGSTOP can be intercepted by the process to perform a clean exit. 
+> 💡 All signals except for <SIGKILL> and <SIGSTOP> can be intercepted by the process to perform a clean exit. 
 <br>
 
 - Terminate a program using the default SIGTERM (terminate) signal:
@@ -297,11 +296,9 @@ kill -SIGUSR1 -group_id
 ```
 
 > 🧷  More information about the kill command can be foun [here](kill - manned.org). 
-
 <br>
 
 > ⚠️ **Caution:** These commands are sensitive and can lead to issues. Killing a process might affect someone else's work. Please use these commands with care and consideration.
-
 <br>
 
 
@@ -361,6 +358,7 @@ If you are wondering how to perform a specific action inside a <Kubernetes> clus
 ## Useful Tools
 ### TLDR
 TLDR is a powerful application that provides concise and practical cheatsheets for various console commands. It is like TLDR RM, but with a list of the most frequently used rm commands and their explanations. You can find more information about this tool and explore its collaborative cheatsheets on [GitHub - tldr-pages/tldr: 📚 Collaborative cheatsheets for console commands](https://github.com/tldr-pages/tldr). TLDR can save you time and effort by presenting the most relevant information in a clear and easy-to-understand format.
+<br>
 
 > This document was last updated on **06/06/2022** by **Nagui Pinetta**.
 
