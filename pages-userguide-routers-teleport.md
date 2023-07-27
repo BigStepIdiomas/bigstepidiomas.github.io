@@ -4,8 +4,6 @@ title: Guides - Sample 01
 description: Interns and newcommers wondered if it was already Christmas
 ---
 
-# Changing Routers Passwords on Teleport
-
 <style>
 .tag {
   display: inline-block;
@@ -55,6 +53,7 @@ description: Interns and newcommers wondered if it was already Christmas
 <span class="tag" style="background-color: #8470ff;">User Guides</span>
 <span class="tag" style="background-color: #20c997;">English</span>
 
+# Changing Routers Passwords on Teleport
 
 ![intro](images-changingpasswords-intro.png)
 

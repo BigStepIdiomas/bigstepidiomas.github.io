@@ -139,10 +139,10 @@ These areas of expertise have allowed me to contribute to the success of various
 
 ⚠️ Please, be aware this portfolio is still under construction. After neverending searches for the right tool to cast my docs samples, I came up with a different approach using GitPages. It's been a fantastic ride so far, full of new learning and challenges, but of course, there's still a lot of room for improvement. Feel free to take a look at its content. I apologize in advance for any inconsistencies whatsoever.
 
-- [Project Docs - Sample 01](pages-docsample01deskproject.md)
-- [Guides - Sample 01](pages-userguide-routers-teleport.md)
-- [Troubleshooting - Sample 01](pages-field-technicians-troubleshooting.md)
-- [SRE FAQ - Sample 01](pages-field-sre-faq.md)
+- [SRE FAQ - Sample](pages-field-sre-faq.md)
+- [Project Docs - Sample](pages-docsample01deskproject.md)
+- [Guides - Sample](pages-userguide-routers-teleport.md)
+- [Troubleshooting - Sample](pages-field-technicians-troubleshooting.md)
 - [Templates](pages-templates-templates-home.md)
 
 
