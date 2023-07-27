@@ -92,7 +92,7 @@ sudo gpasswd -a <user> docker    # Add the user to the 'docker' group for Docker
 ```bash
 sudo adduser <user> && sudo usermod -aG docker <user>
 ```
-<br>
+
 > 💡 While the one-liner sets up the user with sudo and Docker access, it does not grant explicit passwordless sudo permissions. If you want to provide passwordless sudo access, you'll need to modify the sudoers file accordingly. However, please exercise caution when granting passwordless sudo access, and only do so for trusted users. Security should always be a top priority!
 <br>
 
