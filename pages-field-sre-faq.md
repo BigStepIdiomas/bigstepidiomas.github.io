@@ -79,7 +79,7 @@ Welcome to the neatly organized section for common **DevOps SREs** requests! Her
 
 ## How To
 ### Set up a new user on a machine:
-- For an effortless setup of a new user with sudo and Docker access, simply follow these straightforward commands. Just replace <user> with your preferred username.
+- For an effortless setup of a new user with `sudo` and **Docker** access, simply follow these straightforward commands. Just replace `user` with your preferred username.
 
 ```bash
 sudo adduser <user>              # Create the new user
@@ -93,27 +93,26 @@ sudo gpasswd -a <user> docker    # Add the user to the 'docker' group for Docker
 sudo adduser <user> && sudo usermod -aG docker <user>
 ```
 
-> 💡 While the one-liner sets up the user with sudo and Docker access, it does not grant explicit passwordless sudo permissions. If you want to provide passwordless sudo access, you'll need to modify the sudoers file accordingly. However, please exercise caution when granting passwordless sudo access, and only do so for trusted users. Security should always be a top priority!
+> 💡 While the one-liner sets up the user with sudo and **Docker** access, it does not grant explicit passwordless sudo permissions. If you want to provide passwordless sudo access, you'll need to modify the sudoers file accordingly. However, please exercise caution when granting passwordless sudo access, and only do so for trusted users. Security should always be a top priority!
 <br>
 
-
 ### Generate an SSH key:
-- To generate an **SSH** key for secure communication, use the ssh-keygen command. For improved security, it is recommended to use the Ed25519 key type.
+- To generate an **SSH** key for secure communication, use the `ssh-keygen` command. For improved security, it is recommended to use the `Ed25519` key type.
 
 ```bash
 ssh-keygen -t ed25519 -C "<name>@doxhut.xyz"
 ```
 
-- Replace <name> with your desired identifier, email, or any other information you wish to associate with the key. This command will create an **Ed25519** SSH key pair, consisting of a private key (id_ed25519) and a public key (id_ed25519.pub). The public key can be shared with remote servers or services you want to authenticate with.
+- Replace `name` with your desired identifier, email, or any other information you wish to associate with the key. This command will create an `Ed25519` SSH key pair, consisting of a private key (`id_ed25519`) and a public key (`id_ed25519.pub`). The public key can be shared with remote servers or services you want to authenticate with.
 
 > 💡 Remember to keep the private key secure and avoid sharing it with others. Security is crucial!
 
 
 ### TLDR Command to Delete a User:
 
-The <userdel> command is used to remove a user account or remove a user from a group in Linux systems. Please note that all commands must be executed as root.
+The `userdel` command is used to remove a user account or remove a user from a group in **Linux** systems. Please note that all commands must be executed as root.
 
-For more information about <userdel>, refer to the [manual page](https://manned.org/userdel).
+For more information about `userdel`, refer to the [manual page](https://manned.org/userdel).
 
 To remove a user:
 - Remove a user:
@@ -144,7 +143,7 @@ userdel --root [path/to/other/root] [name]
 <br>
 
 ### CVD Upload Script:
-A significant change has been made to the CVD upload script, where the code has been refactored to support camera coordinates for specific cam IDs. An example configuration in the upload script is as follows:
+A significant change has been made to the **CVD** upload script, where the code has been refactored to support camera coordinates for specific Cam IDs. An example configuration in the upload script is as follows:
 
 ```html
 cam-config:
@@ -161,13 +160,13 @@ cam-config:
     - 0
 ```
 <br>
-This configuration allows for specifying different camera coordinates ('origins') for specific camera IDs, along with the frames per second ('fps') and base dimensions ('1280x720'). This change enhances the flexibility and customization options for the CVD upload process.
+This configuration allows for specifying different camera coordinates (`origins`) for specific camera IDs, along with the frames per second (`fps`) and base dimensions (`1280x720`). This change enhances the flexibility and customization options for the **CVD** upload process.
 
 ### Reinstall k3s, Set up Rabbit, and GPU Splitting:
-- To streamline the process of reinstalling k3s and configuring **Rabbit** with GPU splitting, a convenient script named <k3scli.sh> has been provided. This script is available in all the inference boxes, enabling easy execution of the required tasks.
+- To streamline the process of reinstalling k3s and configuring **Rabbit** with GPU splitting, a convenient script named `k3scli.sh` has been provided. This script is available in all the inference boxes, enabling easy execution of the required tasks.
 
 #### Usage and Options:
-- With <k3scli.sh -h>, you can view the available options for running the script:
+- With `k3scli.sh -h`, you can view the available options for running the script:
 
 ```bash
 root@dev-office-inference-0:/home/agot# k3scli.sh -h
@@ -194,7 +193,7 @@ In case of old processes running in the background and causing slowdowns, it is 
 <br>
 
 #### PS Command - Information about Running Processes:
-To list information on running processes, use the <ps> command:
+To list information on running processes, use the `ps` command:
 
 - List all running processes:     
 
@@ -245,10 +244,10 @@ ps --sort size
 The <kill> command sends a signal to a process, usually to stop it. Choose the appropriate command based on your scenario:
 <br>
 
-> 💡 All signals except for <SIGKILL> and <SIGSTOP> can be intercepted by the process to perform a clean exit. 
+> 💡 All signals except for `SIGKILL` and `SIGSTOP` can be intercepted by the process to perform a clean exit. 
 <br>
 
-- Terminate a program using the default SIGTERM (terminate) signal:
+- Terminate a program using the default `SIGTERM` (terminate) signal:
 
 ```bash
 kill process_id
@@ -265,13 +264,13 @@ kill -l
 kill %job_id
 ```
 
-- Terminate a program using SIGHUP (hang up) signal. Many daemons will reload instead of terminating:
+- Terminate a program using `SIGHUP` (hang up) signal. Many daemons will reload instead of terminating:
 
 ```bash
 kill -1|HUP process_id
 ```
 
-- Terminate a program using the SIGINT (interrupt) signal. This is typically initiated by the user pressing CTRL + C:
+- Terminate a program using the `SIGINT` (interrupt) signal. This is typically initiated by the user pressing `CTRL + C`:
 
 ```bash
 kill -2|INT process_id
@@ -283,19 +282,19 @@ kill -2|INT process_id
 kill -9|KILL process_id
 ```
 
-- Signal the operating system to pause a program until a SIGCONT (“continue”) signal is received:
+- Signal the operating system to pause a program until a `SIGCONT` (continue) signal is received:
 
 ```bash
 kill -17|STOP process_id
 ```
 
-- Send a SIGUSR1 signal to all processes with the given GID (group ID): 
+- Send a `SIGUSR1` signal to all processes with the given GID (group ID): 
 
 ```bash
 kill -SIGUSR1 -group_id
 ```
 
-> 🧷  More information about the kill command can be foun [here](kill - manned.org). 
+> 🧷  More information about the `kill`command can be foun [here](kill - manned.org). 
 <br>
 
 > ⚠️ **Caution:** These commands are sensitive and can lead to issues. Killing a process might affect someone else's work. Please use these commands with care and consideration.
@@ -309,7 +308,7 @@ Follow the guidelines included in this [repo](https://git.agot.ai/users/sign_in)
 ### Adding User for Automations
 To set up a new user with administrative privileges for automations, follow these steps:
 
-This command creates a new user with the username "awx" and sets the user's shell to /bin/bash. The user will be added to the "sudo" group, granting administrative privileges.
+This command creates a new user with the username `awx` and sets the user's shell to `/bin/bash`. The user will be added to the `sudo` group, granting administrative privileges.
 
 - Create a new user for automations.
 
@@ -342,7 +341,7 @@ See sudoers(5) for more information on "#include" directives:
 includedir /etc/sudoers.d
 ```
 
-- Add the SSH public key to the authorized_keys file for the new user.
+- Add the SSH public key to the `authorized_keys` file for the new user.
 
 ```bash
 ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIMOmhXTjtS4Tehalzfyn6KwPU0CwYpCSRuv2+P/bZrrc user for automation
@@ -357,7 +356,7 @@ If you are wondering how to perform a specific action inside a <Kubernetes> clus
 
 ## Useful Tools
 ### TLDR
-TLDR is a powerful application that provides concise and practical cheatsheets for various console commands. It is like TLDR RM, but with a list of the most frequently used rm commands and their explanations. You can find more information about this tool and explore its collaborative cheatsheets on [GitHub - tldr-pages/tldr: 📚 Collaborative cheatsheets for console commands](https://github.com/tldr-pages/tldr). TLDR can save you time and effort by presenting the most relevant information in a clear and easy-to-understand format.
+TLDR is a powerful application that provides concise and practical cheatsheets for various console commands. It is like **TLDR RM**, but with a list of the most frequently used rm commands and their explanations. You can find more information about this tool and explore its collaborative cheatsheets on [GitHub - tldr-pages/tldr: 📚 Collaborative cheatsheets for console commands](https://github.com/tldr-pages/tldr). TLDR can save you time and effort by presenting the most relevant information in a clear and easy-to-understand format.
 <br>
 
 > This document was last updated on **06/06/2022** by **Nagui Pinetta**.
